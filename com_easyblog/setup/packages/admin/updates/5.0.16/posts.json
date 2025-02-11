@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__easyblog_revisions",
+        "index"     : "idx_state",
+        "query"     : "ALTER TABLE `#__easyblog_revisions` ADD INDEX `idx_state` (`state`)"
+    }
+]

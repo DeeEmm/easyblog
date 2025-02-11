@@ -1,0 +1,7 @@
+[
+    {
+        "table": "#__easyblog_post_templates",
+        "column": "datafix",
+        "query": "ALTER TABLE `#__easyblog_post_templates` modify `data` LONGTEXT, add column `datafix` tinyint(1) default 1;"
+    }
+]

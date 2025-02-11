@@ -1,0 +1,32 @@
+[
+    {
+        "table"     : "#__easyblog_team",
+        "column"    : "allow_join",
+        "query"     : "ALTER TABLE `#__easyblog_team` ADD `allow_join` TINYINT( 1 ) NOT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_team",
+        "index"    : "idx_viewable_team",
+        "query"     : "ALTER TABLE `#__easyblog_team` ADD INDEX `idx_viewable_team` (`published`, `access`, `created`)"
+    },
+    {
+        "table"     : "#__easyblog_team",
+        "index"    : "idx_published",
+        "query"     : "ALTER TABLE `#__easyblog_team` ADD INDEX `idx_published` (`published`)"
+    },
+    {
+        "table"     : "#__easyblog_team",
+        "index"    : "idx_access",
+        "query"     : "ALTER TABLE `#__easyblog_team` ADD INDEX `idx_access` (`access`)"
+    },
+    {
+        "table"     : "#__easyblog_team",
+        "index"    : "idx_created",
+        "query"     : "ALTER TABLE `#__easyblog_team` ADD INDEX `idx_created` (`created`)"
+    },
+    {
+        "table"     : "#__easyblog_team_groups",
+        "index"    : "idx_team_group",
+        "query"     : "ALTER TABLE `#__easyblog_team_groups` ADD INDEX `idx_team_group` (`team_id`, `group_id`)"
+    }
+]

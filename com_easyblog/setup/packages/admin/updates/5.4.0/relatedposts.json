@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__easyblog_post",
+		"index" : "idx_post_title",
+		"query" : "ALTER TABLE `#__easyblog_post` ADD FULLTEXT `idx_post_title` (`title`);"
+	}
+]

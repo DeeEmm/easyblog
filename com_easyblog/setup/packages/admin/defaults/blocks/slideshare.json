@@ -1,0 +1,9 @@
+{
+	"group": "embeddables",
+	"element": "slideshare",
+	"title": "Slideshare Block",
+	"description": "Allows you to embed slideshare slides in your blog post.",
+	"keywords": "powerpoint, presentation, slides",
+	"published": 1,
+    "ordering": 29
+}

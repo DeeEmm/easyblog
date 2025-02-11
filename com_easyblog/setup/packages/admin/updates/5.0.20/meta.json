@@ -1,0 +1,7 @@
+[
+    {
+        "table": "#__easyblog_meta",
+        "column": "title",
+        "query": "ALTER TABLE `#__easyblog_meta` ADD `title` TEXT NOT NULL AFTER `content_id`;"
+    }
+]

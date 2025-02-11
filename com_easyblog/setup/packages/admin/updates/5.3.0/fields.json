@@ -1,0 +1,22 @@
+[
+	{
+		"table": "#__easyblog_fields",
+		"column" : "ordering",
+		"query" : "ALTER TABLE `#__easyblog_fields` ADD COLUMN `ordering` int(11) null default 0 AFTER `type`;"
+	},
+	{
+		"table": "#__easyblog_fields",
+		"index" : "idx_ordering",
+		"query" : "ALTER TABLE `#__easyblog_fields` ADD INDEX `idx_ordering` (`ordering`);"
+	},
+	{
+		"table": "#__easyblog_fields",
+		"index" : "idx_group_ordering",
+		"query" : "ALTER TABLE `#__easyblog_fields` ADD INDEX `idx_group_ordering` (`group_id`, `ordering`);"
+	},
+	{
+		"table": "#__easyblog_fields_values",
+		"index" : "idx_values",
+		"query" : "ALTER TABLE `#__easyblog_fields_values` ADD INDEX `idx_values` (`value` (250));"
+	}
+]

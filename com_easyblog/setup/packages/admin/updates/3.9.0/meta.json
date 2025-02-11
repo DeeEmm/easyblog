@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__easyblog_meta",
+        "column"    : "indexing",
+        "query"     : "ALTER TABLE `#__easyblog_meta` ADD `indexing` INT( 3 ) NOT NULL DEFAULT 1;"
+    }
+]

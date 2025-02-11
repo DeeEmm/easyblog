@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<access component="com_easyblog">
+	<section name="component">
+		<action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
+		<action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
+		<action name="easyblog.manage.user" title="COM_EASYBLOG_JACL_MANAGE_USERS" description="COM_EASYBLOG_JACL_MANAGE_USERS_DESC" />
+		<action name="easyblog.manage.setting" title="COM_EASYBLOG_JACL_MANAGE_SETTINGS" description="COM_EASYBLOG_JACL_MANAGE_SETTINGS_DESC" />
+		<action name="easyblog.manage.autoposting" title="COM_EASYBLOG_JACL_MANAGE_AUTOPOSTING" description="COM_EASYBLOG_JACL_MANAGE_AUTOPOSTING_DESC" />
+		<action name="easyblog.manage.blog" title="COM_EASYBLOG_JACL_MANAGE_BLOGS" description="COM_EASYBLOG_JACL_MANAGE_BLOGS_DESC" />
+		<action name="easyblog.manage.templates" title="COM_EASYBLOG_JACL_MANAGE_TEMPLATES" description="COM_EASYBLOG_JACL_MANAGE_TEMPLATES_DESC" />
+		<action name="easyblog.manage.blocks" title="COM_EASYBLOG_JACL_MANAGE_BLOCKS" description="COM_EASYBLOG_JACL_MANAGE_BLOCKS_DESC" />
+		<action name="easyblog.manage.fields" title="COM_EASYBLOG_JACL_MANAGE_FIELDS" description="COM_EASYBLOG_JACL_MANAGE_FIELDS_DESC" />
+		<action name="easyblog.manage.languages" title="COM_EASYBLOG_JACL_MANAGE_LANGUAGES" description="COM_EASYBLOG_JACL_MANAGE_LANGUAGES_DESC" />
+		<action name="easyblog.manage.category" title="COM_EASYBLOG_JACL_MANAGE_CATEGORIES" description="JACTION_EDIT_COMPONENT_DESC" />
+		<action name="easyblog.manage.pending" title="COM_EASYBLOG_JACL_MANAGE_PENDING" description="COM_EASYBLOG_JACL_MANAGE_PENDING_DESC" />
+		<action name="easyblog.manage.tag" title="COM_EASYBLOG_JACL_MANAGE_TAGS" description="COM_EASYBLOG_JACL_MANAGE_TAGS_DESC" />
+		<action name="easyblog.manage.comment" title="COM_EASYBLOG_JACL_MANAGE_COMMENTS" description="COM_EASYBLOG_JACL_MANAGE_COMMENTS_DESC" />
+		<action name="easyblog.manage.reactions" title="COM_EASYBLOG_JACL_MANAGE_REACTIONS" description="COM_EASYBLOG_JACL_MANAGE_REACTIONS_DESC" />
+		<action name="easyblog.manage.teamblog" title="COM_EASYBLOG_JACL_MANAGE_TEAMS" description="COM_EASYBLOG_JACL_MANAGE_TEAMS_DESC" />
+		<action name="easyblog.manage.acl" title="COM_EASYBLOG_JACL_MANAGE_ACL" description="COM_EASYBLOG_JACL_MANAGE_ACL_DESC" />
+		<action name="easyblog.manage.meta" title="COM_EASYBLOG_JACL_MANAGE_META" description="COM_EASYBLOG_JACL_MANAGE_META_DESC" />
+		<action name="easyblog.manage.subscription" title="COM_EASYBLOG_JACL_MANAGE_SUBSCRIPTIONS" description="COM_EASYBLOG_JACL_MANAGE_SUBSCRIPTIONS_DESC" />
+		<action name="easyblog.manage.feeds" title="COM_EASYBLOG_JACL_MANAGE_FEEDS" description="COM_EASYBLOG_JACL_MANAGE_FEEDS_DESC" />
+		<action name="easyblog.manage.mail" title="COM_EASYBLOG_JACL_MANAGE_MAIL" description="COM_EASYBLOG_JACL_MANAGE_MAIL" />
+		<action name="easyblog.manage.migrator" title="COM_EASYBLOG_JACL_MANAGE_MIGRATORS" description="COM_EASYBLOG_JACL_MANAGE_MIGRATORS_DESC" />
+		<action name="easyblog.manage.theme" title="COM_EASYBLOG_JACL_MANAGE_THEMES" description="COM_EASYBLOG_JACL_MANAGE_THEMES_DESC" />
+		<action name="easyblog.manage.report" title="COM_EASYBLOG_JACL_MANAGE_REPORTS" description="COM_EASYBLOG_JACL_MANAGE_REPORTS_DESC" />
+		<action name="easyblog.manage.updater" title="COM_EASYBLOG_JACL_MANAGE_UPDATER" description="COM_EASYBLOG_JACL_MANAGE_UPDATER_DESC" />
+		<action name="easyblog.manage.maintenance" title="COM_EASYBLOG_JACL_MANAGE_MAINTENANCE" description="COM_EASYBLOG_JACL_MANAGE_MAINTENANCE_DESC" />
+	</section>
+</access>

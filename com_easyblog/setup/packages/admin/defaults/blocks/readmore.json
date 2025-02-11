@@ -1,0 +1,9 @@
+{
+	"group": "misc",
+	"element": "readmore",
+	"title": "Readmore Block",
+	"description": "Allows insertion of a read more block to separate the contents between intro text and full text",
+	"keywords": "readmore, split pages",
+	"published": 1,
+    "ordering": 21
+}

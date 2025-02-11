@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__easyblog_category_acl",
+		"index": "idx_cat_post_acl",
+		"query": "ALTER TABLE `#__easyblog_category_acl` ADD INDEX `idx_cat_post_acl` (`category_id`, `acl_id`, `content_id`);"
+	}
+]

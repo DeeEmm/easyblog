@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>EasyBlog - Subscribe Module</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>8th October 2024</creationDate>
+	<copyright>Copyright 2009 - 2015 Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GPL License v2</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://stackideas.com</authorUrl>
+	<version>6.0.15</version>
+	<description><![CDATA[Displays a subscribe to blog link in a module.]]></description>
+	<languages>
+		<language tag="en-GB">en-GB.mod_easyblogsubscribe.ini</language>
+	</languages>
+	<files>
+		<folder>tmpl</folder>
+		<filename module="mod_easyblogsubscribe">mod_easyblogsubscribe.php</filename>
+		<filename>mod_easyblogsubscribe.xml</filename>
+	</files>
+	<config>
+		<fields name="params" addfieldpath="/administrator/components/com_easyblog/elements">
+			<fieldset name="basic">
+				<field name="autodetection" type="boolean" default="1" label="MOD_EB_SUBSCRIPTION_AUTO_DETECTION" description="MOD_EB_SUBSCRIPTION_AUTO_DETECTION_DESC" />
+				<field name="subscription_type" type="list" default="site" label="MOD_EASYBLOG_SUBSCRIPTION_TYPE" description="MOD_EASYBLOG_SUBSCRIPTION_TYPE_DESC">
+					<option value="site">MOD_EASYBLOG_SUBSCRIPTION_TYPE_SITE</option>
+					<option value="blogger">MOD_EASYBLOG_SUBSCRIPTION_TYPE_AUTHOR</option>
+					<option value="categories">MOD_EASYBLOG_SUBSCRIPTION_TYPE_CATEGORY</option>
+					<option value="teamblog">MOD_EASYBLOG_SUBSCRIPTION_TYPE_TEAM</option>
+				</field>
+				<field name="type" type="list" default="link" label="MOD_EASYBLOG_SUBSCRIPTION_BEHAVIOR" description="MOD_EASYBLOG_SUBSCRIPTION_BEHAVIOR_DESC">
+					<option value="link">MOD_EASYBLOG_SUBSCRIPTION_DIALOG</option>
+					<option value="form">MOD_EASYBLOG_SUBSCRIPTION_FORM</option>
+				</field>
+				<field name="placeholder" type="placeholder" default="" label="" />
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="cache" type="list" default="0" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC" >
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

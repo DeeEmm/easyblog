@@ -1,0 +1,17 @@
+[
+	{
+		"table": "#__easyblog_post",
+		"column" : "login_to_read",
+		"query" : "ALTER TABLE `#__easyblog_post` ADD COLUMN `login_to_read` tinyint unsigned NOT NULL DEFAULT 0 AFTER `allowcomment`;"
+	},
+	{
+		"table": "#__easyblog_post",
+		"alter": "title",
+		"query": "ALTER TABLE `#__easyblog_post` MODIFY COLUMN `title` text NOT NULL"
+	},
+	{
+		"table": "#__easyblog_post",
+		"index": "idx_latest_posts",
+		"query": "ALTER TABLE `#__easyblog_post` ADD INDEX `idx_latest_posts` (`published`, `state`, `access`, `frontpage`, `created`);"
+	}
+]

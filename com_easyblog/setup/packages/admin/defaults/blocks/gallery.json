@@ -1,0 +1,9 @@
+{
+	"group": "media",
+	"element": "gallery",
+	"title": "Gallery Block",
+	"description": "Allows you to select multiple images to construct a picture gallery.",
+	"keywords": "gallery, multiple, images, photos",
+    "published": 1,
+	"ordering": 14
+}

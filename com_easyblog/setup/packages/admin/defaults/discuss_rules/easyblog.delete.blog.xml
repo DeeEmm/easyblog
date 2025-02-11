@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<easydiscuss type="badges">
+	<command>easyblog.delete.blog</command>
+	<title>Delete blog post</title>
+	<description>This rule allows you to deduct points or give a badge when their blog post is deleted.</description>
+</easydiscuss>

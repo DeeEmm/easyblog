@@ -1,0 +1,9 @@
+{
+	"group": "misc",
+	"element": "pagebreak",
+	"title": "Page Break",
+	"description": "Allows you to add page break in your blog post",
+	"keywords": "pagebreak, pages, multiple page, split pages",
+	"published": 1,
+    "ordering": 23
+}

@@ -1,0 +1,9 @@
+{
+	"group": "media",
+	"element": "image",
+	"title": "Image Block",
+	"description": "Allows you to embed an image into the editor.",
+	"keywords": "images, photos",
+	"published": 1,
+    "ordering": 12
+}

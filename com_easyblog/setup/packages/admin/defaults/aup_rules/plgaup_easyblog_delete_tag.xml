@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alphauserpoints type="plugin">
+    <rule>Delete tag</rule>
+    <description>This rule remove points if user delete tag in EasyBlog</description>
+    <component>EasyBlog</component>
+    <plugin_function>plgaup_easyblog_delete_tag</plugin_function>
+    <fixed_points>true</fixed_points>
+</alphauserpoints>

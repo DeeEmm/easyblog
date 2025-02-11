@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__easyblog_oauth",
+        "column"    : "system",
+        "query"     : "ALTER TABLE `#__easyblog_oauth` ADD `system` tinyint unsigned NULL DEFAULT 0;"
+    }
+]

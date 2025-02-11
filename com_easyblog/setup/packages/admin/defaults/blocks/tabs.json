@@ -1,0 +1,9 @@
+{
+	"group": "layout",
+	"element": "tabs",
+	"title": "Tabs Block",
+	"description": "Tab block allows the author to create tabs within their blog post.",
+	"keywords": "tabs",
+	"published": 1,
+    "ordering": 3
+}

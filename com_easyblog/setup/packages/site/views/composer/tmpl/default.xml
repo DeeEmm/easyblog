@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYBLOG_MENU_COMPOSER_LAYOUT">
+		<message>
+			<![CDATA[COM_EASYBLOG_MENU_COMPOSER_LAYOUT_DESC]]>
+		</message>
+	</layout>
+
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easyblog/elements">
+			<field name="tmpl" type="hidden" default="component" />
+			<field name="category" type="categories" class="btn-group" label="COM_EASYBLOG_ELEMENTS_SELECT_A_CATEGORY" description="COM_EASYBLOG_ELEMENTS_SELECT_A_CATEGORY_DESC" />
+		</fieldset>
+	</fields>
+</metadata>

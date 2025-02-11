@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<easydiscuss type="badges">
+	<command>easyblog.delete.comment</command>
+	<title>Delete blog comment</title>
+	<description>This rule allows you to assign a badge or deduct points for a user when their comment is deleted.</description>
+</easydiscuss>

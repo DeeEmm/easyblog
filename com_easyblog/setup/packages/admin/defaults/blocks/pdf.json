@@ -1,0 +1,9 @@
+{
+	"group": "media",
+	"element": "pdf",
+	"title": "PDF Block",
+	"description": "Allows you to embed a PDF preview within your blog post.",
+	"keywords": "pdf, preview, document",
+	"published": 1,
+    "ordering": 42
+}

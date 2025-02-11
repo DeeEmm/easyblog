@@ -1,0 +1,39 @@
+[
+	{
+		"label": "General",
+		"description": "General settings for elegant theme",
+
+		"params": [
+			{
+				"name": "brand",
+				"type": "color",
+				"default": "#134270",
+				"label": "COM_EB_BRAND_COLOUR"
+			},
+			{	
+				"name": "background",
+				"type": "color",
+				"default": "#444444",
+				"label": "COM_EB_BACKGROUND_COLOUR"
+			},
+			{
+				"name": "text",
+				"type": "color",
+				"default": "#aaaaaa",
+				"label": "COM_EB_TEXT_COLOUR"
+			},
+			{
+				"name": "toolbartext",
+				"type": "color",
+				"default": "#ffffff",
+				"label": "COM_EB_TOOLBAR_TEXT_COLOUR"
+			},
+			{
+				"name": "border",
+				"type": "color",
+				"default": "#333333",
+				"label": "COM_EB_BORDER_COLOUR"
+			}
+		]
+	}
+]

@@ -1,0 +1,9 @@
+{
+	"group": "embeddables",
+	"element": "gist",
+	"title": "Gist",
+	"description": "Embed Gist codes in your blog post by using this block.",
+	"keywords": "Gist, code, syntax highlighter",
+	"published": 1,
+    "ordering": 24
+}

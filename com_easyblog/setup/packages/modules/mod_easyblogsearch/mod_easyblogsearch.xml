@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>EasyBlog - Search Blogs Module</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>8th October 2024</creationDate>
+	<copyright>Copyright 2009 - 2015 Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GPL License v2</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://stackideas.com</authorUrl>
+	<version>6.0.15</version>
+	<description><![CDATA[A simple form which allows users to search for blog posts]]></description>
+	<languages>
+		<language tag="en-GB">en-GB.mod_easyblogsearch.ini</language>
+	</languages>
+	<files>
+		<folder>tmpl</folder>
+		<filename module="mod_easyblogsearch">mod_easyblogsearch.php</filename>
+		<filename>mod_easyblogsearch.xml</filename>
+	</files>
+	<config>
+		<fields  name="params" addfieldpath="/administrator/components/com_easyblog/elements">
+
+			<fieldset name="basic">
+				<field name="placeholder" type="text" default="MOD_EASYBLOGSEARCH_PLACEHOLDER" label="MOD_EASYBLOGSEARCH_PLACEHOLDER_TEXT" description="MOD_EASYBLOGSEARCH_PLACEHOLDER_TEXT_DESC" />
+				<field name="category_id" type="categories" label="MOD_EASYBLOGSEARCH_FILTER_BY_CATEGORY" description="MOD_EASYBLOGSEARCH_FILTER_BY_CATEGORY_DESC" />
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="cache" type="list" default="0" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="0">Never</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

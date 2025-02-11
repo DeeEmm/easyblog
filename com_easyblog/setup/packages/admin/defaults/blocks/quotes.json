@@ -1,0 +1,9 @@
+{
+	"group": "elements",
+	"element": "quotes",
+	"title": "Quotes Block",
+	"description": "Allows you to insert a block quote in the editor.",
+	"keywords": "quotes, blockquotes",
+	"published": 1,
+    "ordering": 8
+}

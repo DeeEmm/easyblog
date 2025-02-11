@@ -1,0 +1,9 @@
+{
+	"group": "misc",
+	"element": "html",
+	"title": "Html Block",
+	"description": "Allows you to insert custom html codes within the editor",
+	"keywords": "html, custom html",
+	"published": 1,
+    "ordering": 19
+}

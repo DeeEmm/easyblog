@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="easyblogusers">
+		<fieldset name="easyblogusers" label="Blog">
+			<field name="subscribe" type="checkbox" default="1" id="subscribe"
+                   description="PLG_EASYBLOGUSERS_SUBSCRIBE_TO_BLOG"
+                   filter="string"
+                   label="PLG_EASYBLOGUSERS_SUBSCRIBE_TO_BLOG"
+                   message="PLG_EASYBLOGUSERS_SUBSCRIBE_TO_BLOG"
+                   size="30" />
+		</fieldset>
+	</fields>
+</form>

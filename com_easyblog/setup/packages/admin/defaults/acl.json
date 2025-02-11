@@ -1,0 +1,359 @@
+[
+	{
+		"action": "add_entry",
+		"group": "composer",
+		"desc": "COM_EASYBLOG_ACL_DESC_ADD_ENTRY",
+		"published": 1,
+		"id": 1
+	},
+	{
+		"action": "publish_entry",
+		"group": "composer",
+		"desc": "COM_EASYBLOG_ACL_DESC_PUBLISH_ENTRY",
+		"published": 1,
+		"id": 2
+	},
+	{
+		"action": "allow_feedburner",
+		"group": "profile",
+		"desc": "COM_EASYBLOG_ACL_DESC_ALLOW_FEEDBURNER",
+		"published": 1,
+		"id": 3
+	},
+	{
+		"action": "upload_avatar",
+		"group": "profile",
+		"desc": "COM_EASYBLOG_ACL_DESC_UPLOAD_AVATAR",
+		"published": 1,
+		"id": 4
+	},
+	{
+		"action": "manage_comment",
+		"group": "manage",
+		"desc": "COM_EASYBLOG_ACL_DESC_MANAGE_COMMENT",
+		"published": 1,
+		"id": 5
+	},
+	{
+		"action": "update_twitter",
+		"group": "profile",
+		"desc": "COM_EASYBLOG_ACL_DESC_UPDATE_TWITTER",
+		"published": 1,
+		"id": 6
+	},
+	{
+		"action": "delete_entry",
+		"group": "manage",
+		"desc": "COM_EASYBLOG_ACL_DESC_DELETE_ENTRY",
+		"published": 1,
+		"id": 8
+	},
+	{
+		"action": "contribute_frontpage",
+		"group": "composer",
+		"desc": "COM_EASYBLOG_ACL_DESC_CONTRIBUTE_FRONTPAGE",
+		"published": 1,
+		"id": 10
+	},
+	{
+		"action": "create_category",
+		"group": "manage",
+		"desc": "COM_EASYBLOG_ACL_DESC_CREATE_CATEGORY",
+		"published": 1,
+		"id": 11
+	},
+	{
+		"action": "create_tag",
+		"group": "manage",
+		"desc": "COM_EASYBLOG_ACL_DESC_CREATE_TAG",
+		"published": 1,
+		"id": 12
+	},
+	{
+		"action": "add_adsense",
+		"group": "profile",
+		"desc": "COM_EASYBLOG_ACL_DESC_ADD_ADSENSE",
+		"published": 1,
+		"id": 13
+	},
+	{
+		"action": "allow_shortcode",
+		"group": "profile",
+		"desc": "COM_EASYBLOG_ACL_DESC_ALLOW_SHORTCODE",
+		"published": 1,
+		"id": 14
+	},
+	{
+		"action": "allow_rss",
+		"group": "profile",
+		"desc": "COM_EASYBLOG_ACL_DESC_ALLOW_RSS",
+		"published": 1,
+		"id": 15
+	},
+	{
+		"action": "custom_template",
+		"group": "profile",
+		"desc": "COM_EASYBLOG_ACL_DESC_CUSTOM_TEMPLATE",
+		"published": 1,
+		"id": 16
+	},
+	{
+		"action": "enable_privacy",
+		"group": "composer",
+		"desc": "COM_EASYBLOG_ACL_DESC_ENABLE_PRIVACY",
+		"published": 1,
+		"id": 17
+	},
+	{
+		"action": "allow_comment",
+		"group": "comment",
+		"desc": "COM_EASYBLOG_ACL_DESC_ALLOW_COMMENT",
+		"published": 1,
+		"id": 18
+	},
+	{
+		"action": "allow_subscription",
+		"group": "subscription",
+		"desc": "COM_EASYBLOG_ACL_DESC_ALLOW_SUBSCRIPTION",
+		"published": 1,
+		"id": 19
+	},
+	{
+		"action": "manage_pending",
+		"group": "manage",
+		"desc": "COM_EASYBLOG_ACL_DESC_MANAGE_PENDING",
+		"published": 1,
+		"id": 20
+	},
+	{
+		"action": "upload_image",
+		"group": "media",
+		"desc": "COM_EASYBLOG_ACL_DESC_UPLOAD_IMAGE",
+		"published": 1,
+		"id": 21
+	},
+	{
+		"action": "upload_cavatar",
+		"group": "manage",
+		"desc": "COM_EASYBLOG_ACL_DESC_UPLOAD_CAVATAR",
+		"published": 1,
+		"id": 23
+	},
+	{
+		"action": "update_linkedin",
+		"group": "profile",
+		"desc": "COM_EASYBLOG_ACL_DESC_UPDATE_LINKEDIN",
+		"published": 1,
+		"id": 24
+	},
+	{
+		"action": "change_setting_comment",
+		"group": "composer",
+		"desc": "COM_EASYBLOG_ACL_DESC_CHANGE_SETTING_COMMENT",
+		"published": 1,
+		"id": 25
+	},
+	{
+		"action": "change_setting_subscription",
+		"group": "composer",
+		"desc": "COM_EASYBLOG_ACL_DESC_CHANGE_SETTING_SUBSCRIPTION",
+		"published": 1,
+		"id": 26
+	},
+	{
+		"action": "update_facebook",
+		"group": "profile",
+		"desc": "COM_EASYBLOG_ACL_DESC_UPDATE_FACEBOOK",
+		"published": 1,
+		"id": 27
+	},
+	{
+		"action": "delete_category",
+		"group": "manage",
+		"desc": "COM_EASYBLOG_ACL_DESC_DELETE_CATEGORY",
+		"published": 1,
+		"id": 28
+	},
+	{
+		"action": "moderate_entry",
+		"group": "manage",
+		"desc": "COM_EASYBLOG_ACL_DESC_MODERATE_ENTRY",
+		"published": 1,
+		"id": 29
+	},
+	{
+		"action": "edit_comment",
+		"group": "manage",
+		"desc": "COM_EASYBLOG_ACL_DESC_EDIT_COMMENT",
+		"published": 1,
+		"id": 30
+	},
+	{
+		"action": "delete_comment",
+		"group": "manage",
+		"desc": "COM_EASYBLOG_ACL_DESC_DELETE_COMMENT",
+		"published": 1,
+		"id": 31
+	},
+	{
+		"action": "feature_entry",
+		"group": "manage",
+		"desc": "COM_EASYBLOG_ACL_DESC_FEATURE_ENTRY",
+		"published": 1,
+		"id": 32
+	},
+	{
+		"action": "media_places_album",
+		"group": "media",
+		"desc": "COM_EASYBLOG_ACL_DESC_MEDIA_PLACES_ALBUM",
+		"published": 1,
+		"id": 33
+	},
+	{
+		"action": "media_places_flickr",
+		"group": "media",
+		"desc": "COM_EASYBLOG_ACL_DESC_MEDIA_PLACES_FLICKR",
+		"published": 1,
+		"id": 34
+	},
+	{
+		"action": "media_places_shared",
+		"group": "media",
+		"desc": "COM_EASYBLOG_ACL_DESC_MEDIA_PLACES_SHARED",
+		"published": 1,
+		"id": 35
+	},
+	{
+		"action": "allow_seo",
+		"group": "profile",
+		"desc": "COM_EASYBLOG_ACL_DESC_ALLOW_SEO",
+		"published": 1,
+		"id": 36
+	},
+	{
+		"action": "access_toolbar",
+		"group": "profile",
+		"desc": "COM_EASYBLOG_ACL_DESC_ACCESS_TOOLBAR",
+		"published": 1,
+		"id": 37
+	},
+	{
+		"action": "custom_css",
+		"group": "profile",
+		"desc": "COM_EASYBLOG_ACL_DESC_UPDATE_CSS",
+		"published": 1,
+		"id": 38
+	},
+	{
+		"action": "allow_subscription_rss",
+		"group": "subscription",
+		"desc": "COM_EASYBLOG_ACL_DESC_ACCESS_RSS",
+		"published": 1,
+		"id": 39
+	},
+	{
+		"action": "add_google_authorship",
+		"group": "profile",
+		"desc": "COM_EASYBLOG_ACL_DESC_ADD_GOOGLE_AUTHORSHIP",
+		"published": 1,
+		"id": 40
+	},
+	{
+		"action": "allow_user_permalink",
+		"group": "profile",
+		"desc": "COM_EASYBLOG_ACL_DESC_ALLOW_USER_PERMALINK",
+		"published": 1,
+		"id": 41
+	},
+	{
+		"action": "allow_user_blog_title",
+		"group": "profile",
+		"desc": "COM_EASYBLOG_ACL_OPTION_ALLOW_USER_BLOG_TITLE",
+		"published": 1,
+		"id": 42
+	},
+	{
+		"action": "allow_user_blog_description",
+		"group": "profile",
+		"desc": "COM_EASYBLOG_ACL_OPTION_ALLOW_USER_BLOG_DESCRIPTION",
+		"published": 1,
+		"id": 43
+	},
+	{
+		"action": "create_post_templates",
+		"group": "composer",
+		"desc": "COM_EASYBLOG_ACL_DESC_CREATE_POST_TEMPLATES",
+		"published": 1,
+		"id": 44
+	},
+	{
+		"action": "create_team_blog",
+		"group": "team",
+		"desc": "COM_EASYBLOG_ACL_DESC_CREATE_TEAM_BLOGS",
+		"published": 1,
+		"id": 45
+	},
+	{
+		"action": "join_team_blog",
+		"group": "team",
+		"desc": "COM_EASYBLOG_ACL_DESC_JOIN_TEAM_BLOGS",
+		"published": 1,
+		"id": 46
+	},
+	{
+		"action": "allow_custom_notifications",
+		"group": "composer",
+		"desc": "COM_EASYBLOG_ACL_DESC_ALLOW_CUSTOM_NOTIFICATIONS",
+		"published": 1,
+		"id": 47
+	},
+	{
+		"action": "allow_user_editor",
+		"group": "profile",
+		"desc": "COM_EASYBLOG_ACL_DESC_ALLOW_USER_EDITOR",
+		"published": 1,
+		"id": 48
+	},
+	{
+		"action": "edit_entry",
+		"group": "manage",
+		"desc": "COM_EASYBLOG_ACL_DESC_EDIT_ENTRY",
+		"published": 1,
+		"id": 49
+	},
+	{
+		"action": "change_login_to_read",
+		"group": "composer",
+		"desc": "COM_EASYBLOG_ACL_DESC_CHANGE_SETTING_LOGIN_TO_READ",
+		"published": 1,
+		"id": 50
+	},
+	{
+		"action": "polls_create",
+		"group": "polls",
+		"desc": "COM_EASYBLOG_ACL_DESC_CHANGE_SETTING_POLL_CREATE",
+		"published": 1,
+		"id": 51
+	},
+	{
+		"action": "polls_edit",
+		"group": "polls",
+		"desc": "COM_EASYBLOG_ACL_DESC_CHANGE_SETTING_POLL_EDIT",
+		"published": 1,
+		"id": 52
+	},
+	{
+		"action": "polls_manage",
+		"group": "polls",
+		"desc": "COM_EASYBLOG_ACL_DESC_CHANGE_SETTING_POLL_MANAGE",
+		"published": 1,
+		"id": 53
+	},
+	{
+		"action": "create_block_templates",
+		"group": "composer",
+		"desc": "COM_EASYBLOG_ACL_DESC_CREATE_BLOCK_TEMPLATES",
+		"published": 1,
+		"id": 54
+	}
+]

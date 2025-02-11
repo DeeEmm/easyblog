@@ -1,0 +1,62 @@
+[
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "isnew",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD `isnew` tinyint unsigned NULL DEFAULT 0;"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "copyrights",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD `copyrights` TEXT NOT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "robots",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD `robots` TEXT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "latitude",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD COLUMN `latitude` VARCHAR(255) NULL;"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "longitude",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD COLUMN `longitude` VARCHAR(255) NULL;"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "address",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD COLUMN `address` TEXT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "source",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD `source` VARCHAR(255) NOT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "image",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD `image` TEXT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "blogpassword",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD `blogpassword` VARCHAR( 100 ) NOT NULL DEFAULT '';"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "language",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD `language` CHAR( 7 ) NOT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "index"    : "easyblog_post_blogger_list",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD INDEX `easyblog_post_blogger_list` ( `published`, `id`, `created_by` );"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "send_notification_emails",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD `send_notification_emails` TINYINT( 1 ) NOT NULL DEFAULT 1;"
+    }
+]

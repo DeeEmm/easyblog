@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alphauserpoints type="plugin">
+    <rule>Create new blog post</rule>
+    <description>This rule add points if user add a new blog post in EasyBlog</description>
+    <component>EasyBlog</component>
+    <plugin_function>plgaup_easyblog_add_blog</plugin_function>
+    <fixed_points>true</fixed_points>
+</alphauserpoints>

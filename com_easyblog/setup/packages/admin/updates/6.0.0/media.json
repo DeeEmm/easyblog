@@ -1,0 +1,22 @@
+[
+	{
+		"table": "#__easyblog_media",
+		"index" : "idx_url",
+		"query" : "ALTER TABLE `#__easyblog_media` ADD INDEX `idx_url` (`url` (128));"
+	},
+	{
+		"table": "#__easyblog_media",
+		"index" : "idx_type",
+		"query" : "ALTER TABLE `#__easyblog_media` ADD INDEX `idx_type` (`type`);"
+	},
+	{
+		"table": "#__easyblog_media",
+		"index" : "idx_places",
+		"query" : "ALTER TABLE `#__easyblog_media` ADD INDEX `idx_places` (`place` (32));"
+	},
+	{
+		"table": "#__easyblog_media",
+		"index" : "idx_cron_optimiser",
+		"query" : "ALTER TABLE `#__easyblog_media` ADD INDEX `idx_cron_optimiser` (`type` (32), `place` (32));"
+	}
+]

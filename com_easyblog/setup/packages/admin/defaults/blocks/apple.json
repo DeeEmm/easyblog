@@ -1,0 +1,9 @@
+{
+	"group": "embeddables",
+	"element": "apple",
+	"title": "Apple",
+	"description": "Apple block allows authors to embed podcast, music, album and playlist from Apple",
+	"keywords": "podcast, music, album, playlist",
+	"published": 1,
+	"ordering": 53
+}

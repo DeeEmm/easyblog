@@ -1,0 +1,9 @@
+{
+	"group": "embeddables",
+	"element": "tiktok",
+	"title": "Tiktok",
+	"description": "Tiktok block allows authors to embed a video from TikTok",
+	"keywords": "video, social, dance, tiktok",
+	"published": 1,
+	"ordering": 51
+}

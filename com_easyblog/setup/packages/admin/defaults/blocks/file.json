@@ -1,0 +1,9 @@
+{
+	"group": "media",
+	"element": "file",
+	"title": "File Block",
+	"description": "Allows you to insert a file into the editor.",
+	"keywords": "pdf, exe, txt, file",
+	"published": 1,
+    "ordering": 18
+}

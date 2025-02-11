@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYBLOG_MENU_BLOGGERS_LAYOUT">
+		<message>
+			<![CDATA[COM_EASYBLOG_MENU_BLOGGERS_LAYOUT_DESC]]>
+		</message>
+		<view>blogger</view>
+	</layout>
+
+	<fields name="params">
+
+		<fieldset name="authors" label="COM_EB_MENU_AUTHORS_OPTIONS" addfieldpath="/administrator/components/com_easyblog/elements" id="authors">
+			<field name="authors_search" config="bloggers_authors_search" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_SEARCH" description="COM_EASYBLOG_SHOW_SEARCH_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="authors_sorting" config="bloggers_authors_sorting" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_SORTING" description="COM_EASYBLOG_SHOW_SORTING_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="author_avatar" config="bloggers_author_avatar" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_AUTHOR_AVATAR" description="COM_EASYBLOG_SHOW_AUTHOR_AVATAR_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="author_comments_counter" config="bloggers_author_comments_counter" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_AUTHOR_COMMENTS_COUNTER" description="COM_EASYBLOG_SHOW_AUTHOR_COMMENTS_COUNTER_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="author_bio" config="bloggers_author_bio" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_AUTHOR_BIO" description="COM_EASYBLOG_SHOW_AUTHOR_BIO_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="author_twitter" config="bloggers_author_twitter" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_AUTHOR_TWITTER" description="COM_EASYBLOG_SHOW_AUTHOR_TWITTER_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="author_website" config="bloggers_author_website" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_AUTHOR_WEBSITE" description="COM_EASYBLOG_SHOW_AUTHOR_WEBSITE_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="author_subscribe_email" config="bloggers_author_subscribe_email" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_SUBSCRIBE_EMAIL" description="COM_EASYBLOG_SHOW_SUBSCRIBE_EMAIL_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="author_subscribe_rss" config="bloggers_author_subscribe_rss" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_SUBSCRIBE_RSS" description="COM_EASYBLOG_SHOW_SUBSCRIBE_RSS_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="author_posts" config="bloggers_author_posts" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_AUTHOR_POSTS" description="COM_EASYBLOG_SHOW_AUTHOR_POSTS_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="author_truncate_bio" config="bloggers_author_truncate_bio" type="dropdownglobal" default="-1" label="COM_EB_ENABLE_BIO_TRUNCATION" description="COM_EB_ENABLE_BIO_TRUNCATION_DESC">
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+		</fieldset>
+
+		<fieldset name="limit" label="COM_EB_MENU_LIMIT_OPTIONS" info="COM_EB_MENU_LIMIT_OPTIONS_INFO" addfieldpath="/administrator/components/com_easyblog/elements" id="limit">
+			<field type="pagination" name="author_limit" default="-1" label="COM_EB_AUTHORS_PER_PAGE" description="COM_EB_AUTHORS_PER_PAGE_DESC" />
+			<field type="pagination" name="author_posts_limit" default="-1" label="COM_EB_AUTHORS_POSTS_PER_AUTHOR" description="COM_EB_AUTHORS_POSTS_PER_AUTHOR_DESC" />
+			<field type="pagination" name="author_categories_limit" default="-1" label="COM_EB_AUTHORS_CATEGORIES_PER_AUTHOR" description="COM_EB_AUTHORS_CATEGORIES_PER_AUTHOR_DESC" />
+			<field type="pagination" name="author_tags_limit" default="-1" label="COM_EB_AUTHORS_TAGS_PER_AUTHOR" description="COM_EB_AUTHORS_TAGS_PER_AUTHOR_DESC" />
+		</fieldset>
+
+		<fieldset name="request" addfieldpath="/administrator/components/com_easyblog/elements">
+			<field type="authorsorting" name="sorting" default="-2" label="COM_EB_AUTHORS_ORDERING_OPTIONS" description="COM_EB_AUTHORS_ORDERING_OPTIONS_DESC" />
+		</fieldset>
+	</fields>
+</metadata>

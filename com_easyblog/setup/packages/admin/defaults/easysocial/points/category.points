@@ -1,0 +1,21 @@
+
+[
+	{
+		"title"			: "Create New Category",
+		"alias"			: "create-blog-category",
+		"description"	: "Earn points when you create a new category in the blog",
+		"command"		: "category.create",
+		"extension"		: "com_easyblog",
+		"state"			: true,
+		"points"		: 2
+	},
+	{
+		"title"			: "Category Removed",
+		"alias"			: "remove-blog-category",
+		"description"	: "Points will be deducted when a category is removed from the site.",
+		"command"		: "category.remove",
+		"extension"		: "com_easyblog",
+		"state"			: true,
+		"points"		: -2
+	}
+]

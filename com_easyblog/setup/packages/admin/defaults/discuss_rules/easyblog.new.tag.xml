@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<easydiscuss type="badges">
+	<command>easyblog.new.tag</command>
+	<title>Created a new tag</title>
+	<description>This rule allows you to assign a badge or points for a user when they created a new tag in their blog post.</description>
+</easydiscuss>

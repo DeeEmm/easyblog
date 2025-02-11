@@ -1,0 +1,48 @@
+
+[
+	{
+		"title"			: "Create Blog Post",
+		"alias"			: "create-blog-post",
+		"description"	: "Earn points when you create a new blog post on the site.",
+		"command"		: "blog.create",
+		"extension"		: "com_easyblog",
+		"state"			: true,
+		"points"		: 10
+	},
+	{
+		"title"			: "Read Blog Post",
+		"alias"			: "read-blog",
+		"description"	: "Earn points when you read a blog post on the site.",
+		"command"		: "blog.read",
+		"extension"		: "com_easyblog",
+		"state"			: true,
+		"points"		: 1
+	},
+	{
+		"title"			: "Remove Blog Post",
+		"alias"			: "remove-blog-post",
+		"description"	: "Points will be deducted when your blog post is deleted.",
+		"command"		: "blog.remove",
+		"extension"		: "com_easyblog",
+		"state"			: true,
+		"points"		: -10
+	},
+	{
+		"title"			: "Rate Blog Post",
+		"alias"			: "rate-blog-post",
+		"description"	: "Earn points when you rate a blog post on the site.",
+		"command"		: "blog.rate",
+		"extension"		: "com_easyblog",
+		"state"			: true,
+		"points"		: 1
+	},
+	{
+		"title"			: "Blog Post Rated",
+		"alias"			: "rated-blog-post",
+		"description"	: "Earn points when your blog post is rated by someone else.",
+		"command"		: "blog.rated",
+		"extension"		: "com_easyblog",
+		"state"			: true,
+		"points"		: 5
+	}
+]

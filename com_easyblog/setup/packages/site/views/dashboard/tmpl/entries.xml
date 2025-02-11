@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYBLOG_MENU_DASHBOARD_ENTRIES_LAYOUT">
+		<message>
+			<![CDATA[COM_EASYBLOG_MENU_DASHBOARD_ENTRIES_LAYOUT_DESC]]>
+		</message>
+		<view>dashboard</view>
+	</layout>
+
+	<fields name="params">
+		<fieldset name="request">
+			<field name="filter" type="list" default="0" label="Default Filter" description="Select the default filter to be used when rendering posts">
+				<option value="all">COM_EASYBLOG_FILTER_ALL</option>
+				<option value="publish">COM_EASYBLOG_FILTER_PUBLISHED</option>
+				<option value="unpublish">COM_EASYBLOG_FILTER_UNPUBLISHED</option>
+				<option value="scheduled">COM_EASYBLOG_FILTER_SCHEDULED</option>
+				<option value="drafts">COM_EASYBLOG_FILTER_DRAFT</option>
+				<option value="pending">COM_EASYBLOG_FILTER_UNDER_REVIEW</option>
+				<option value="trash">COM_EASYBLOG_FILTER_TRASHED</option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

@@ -1,0 +1,77 @@
+ [
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "doctype",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD `doctype` varchar(255) NOT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "document",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD `document` TEXT NULL DEFAULT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "source_id",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD COLUMN `source_id` bigint(20) default 0"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "source_type",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD COLUMN `source_type` varchar(64) default ''"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "posttype",
+        "query"     : "ALTER TABLE `#__easyblog_post` CHANGE `source` `posttype` VARCHAR(255) NOT NULL"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "state",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD `state` INT(1) UNSIGNED NOT NULL DEFAULT '0' COMMENT '0 - Normal, 1 - Trashed, 2 - Archived.'"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "access",
+        "query"     : "ALTER TABLE `#__easyblog_post` CHANGE `private` `access` int(11) unsigned NOT NULL default 0"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "locked",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD `locked` TINYINT(3) NOT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "ip",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD `ip` VARCHAR(255) NOT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "column"    : "revision_id",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD `revision_id` INT(11) NULL DEFAULT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "index"    : "easyblog_frontpage1",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD INDEX `easyblog_frontpage1` (`published`,`frontpage`,`created`);"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "index"    : "easyblog_post_searchnew",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD INDEX `easyblog_post_searchnew` (`access`, `published`, `created`)"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "index"    : "idx_pre_soucetype_postcount",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD INDEX `idx_pre_soucetype_postcount` (`published`, `state`, `source_type`, `source_id`)"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "index"    : "idx_post_sql1",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD INDEX `idx_post_sql1` (`published`, `state`, `source_type`, `source_id`, `created`)"
+    },
+    {
+        "table"     : "#__easyblog_post",
+        "index"    : "idx_post_revision",
+        "query"     : "ALTER TABLE `#__easyblog_post` ADD INDEX `idx_post_revision` (`revision_id`)"
+    }
+]

@@ -1,0 +1,9 @@
+{
+	"group": "elements",
+	"element": "code",
+	"title": "Code Block",
+	"description": "Allows you to insert a code block in the editor.",
+	"keywords": "code, pre, syntax highlighter",
+	"published": 1,
+    "ordering": 11
+}

@@ -1,0 +1,9 @@
+{
+	"group": "embeddables",
+	"element": "youtube",
+	"title": "Youtube Block",
+	"description": "Allows you to embed a youtube video",
+	"keywords": "video, youtube, videos, media",
+	"published": 1,
+    "ordering": 33
+}

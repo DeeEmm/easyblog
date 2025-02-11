@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__easyblog_ratings",
+        "column"    : "sessionid",
+        "query"     : "ALTER TABLE `#__easyblog_ratings` ADD `sessionid` VARCHAR( 200 ) NOT NULL DEFAULT '';"
+    }
+]

@@ -1,0 +1,9 @@
+{
+	"group": "embeddables",
+	"element": "spotify",
+	"title": "Spotify Block",
+	"description": "Allows you to embed a Spotify widget from in  your blog post.",
+	"keywords": "spotify, music, streaming, songs",
+	"published": 1,
+    "ordering": 26
+}

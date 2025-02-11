@@ -1,0 +1,39 @@
+
+[
+	{
+		"title"			: "Add Comment",
+		"alias"			: "create-comment",
+		"description"	: "Earn points when you comment on a blog post.",
+		"command"		: "comment.create",
+		"extension"		: "com_easyblog",
+		"state"			: true,
+		"points"		: 2
+	},
+	{
+		"title"			: "Remove Comment",
+		"alias"			: "remove-comment",
+		"description"	: "Points will be deducted when a comment is removed from the blog post.",
+		"command"		: "comment.remove",
+		"extension"		: "com_easyblog",
+		"state"			: true,
+		"points"		: -2
+	},
+	{
+		"title"			: "Comments Added To Blog",
+		"alias"			: "create-comment-on-your-blog",
+		"description"	: "Points will be added to your account when someone posts a new comment on your blog post.",
+		"command"		: "comment.create.author",
+		"extension"		: "com_easyblog",
+		"state"			: true,
+		"points"		: 1
+	},
+	{
+		"title"			: "Comments Removed From Blog",
+		"alias"			: "remove-comment-from-your-blog",
+		"description"	: "Points will be deducated from your account when a comment is removed from the blog post.",
+		"command"		: "comment.delete.author",
+		"extension"		: "com_easyblog",
+		"state"			: true,
+		"points"		: -1
+	}
+]

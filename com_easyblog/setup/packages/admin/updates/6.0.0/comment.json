@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__easyblog_comment",
+		"alter" : "sent",
+		"query" : "ALTER TABLE `#__easyblog_comment` MODIFY `sent` TINYINT DEFAULT 0 NULL;"
+	}
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "table"     : "#__easyblog_migrate_content",
+        "column"    : "component",
+        "query"     : "ALTER TABLE `#__easyblog_migrate_content` ADD COLUMN `component` varchar(255) NOT NULL DEFAULT `com_content`;"
+    },
+    {
+        "table"     : "#__easyblog_migrate_content",
+        "column"    : "filename",
+        "query"     : "ALTER TABLE `#__easyblog_migrate_content` ADD `filename` VARCHAR( 255 ) NULL;"
+    }
+]

@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__easyblog_feeds_history",
+		"index": "idx_postid",
+		"query": "ALTER TABLE `#__easyblog_feeds_history` ADD INDEX `idx_postid` (`post_id`);"
+	}
+]

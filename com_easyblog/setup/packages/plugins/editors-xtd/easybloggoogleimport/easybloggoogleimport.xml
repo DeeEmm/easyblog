@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="editors-xtd">
+	<name>Button - EasyBlog Google Import</name>
+	<creationDate>16/04/2021</creationDate>
+	<author>stackideas.com</author>
+	<copyright>Copyright StackIdeas. All rights reserved</copyright>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>https://stackideas.com</authorUrl>
+	<license>GPL License</license>
+	<version>1.0.0</version>
+	<description>A button under the editor that allows authors to import Google docs file as content into editor</description>
+	<languages>
+		<language tag="en-GB">en-GB.plg_editors-xtd_easybloggoogleimport.ini</language>
+	</languages>
+	<files>
+		<filename plugin="easybloggoogleimport">easybloggoogleimport.php</filename>
+		<filename>easybloggoogleimport.xml</filename>
+	</files>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

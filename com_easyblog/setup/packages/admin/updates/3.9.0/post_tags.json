@@ -1,0 +1,12 @@
+[
+    {
+        "table"     : "#__easyblog_post_tag",
+        "index"    : "easyblog_post_tagpost_id",
+        "query"     : "ALTER TABLE `#__easyblog_post_tag` ADD INDEX `easyblog_post_tagpost_id` ( `tag_id`, `post_id` );"
+    },
+    {
+        "table"     : "#__easyblog_acl_group",
+        "index"    : "acl_grp_acl_type",
+        "query"     : "ALTER TABLE `#__easyblog_acl_group` ADD INDEX `acl_grp_acl_type` ( `acl_id`, `type` );"
+    }
+]

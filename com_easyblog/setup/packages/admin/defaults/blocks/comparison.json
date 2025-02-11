@@ -1,0 +1,9 @@
+{
+	"group": "media",
+	"element": "comparison",
+	"title": "Image Comparison Block",
+	"description": "Allows you to compare between 2 different images with a slider",
+	"keywords": "thumbnails, small, images, photos, comparison",
+	"published": 1,
+	"ordering": 46
+}

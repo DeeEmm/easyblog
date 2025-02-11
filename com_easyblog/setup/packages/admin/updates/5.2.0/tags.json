@@ -1,0 +1,7 @@
+[
+	{
+		"table" : "#__easyblog_tag",
+		"column" : "language",
+		"query" : "ALTER TABLE `#__easyblog_tag` ADD `language` char(7) NOT NULL"
+	}
+]

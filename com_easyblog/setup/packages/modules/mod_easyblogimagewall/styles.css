@@ -1,0 +1,29 @@
+div.mod_easyblogimagewall{
+	background: none;
+	list-style: none;
+}
+
+div.mod_easyblogimagewall span.item-wrapper{
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+
+div.mod_easyblogimagewall span.item-wrapper{
+	margin: 0 0 20px 20px;
+}
+
+div.mod_easyblogimagewall span.item-title{
+	position: absolute;
+	bottom: 0;
+	height: 50px;
+	font-weight: 700;
+	left: 0;
+	background: #000;
+	opacity: 0.8;
+	text-align: center;
+	padding: 8px 0 8px;
+	overflow: hidden;
+	color: #fff;
+	width: 100%;
+}

@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__easyblog_captcha",
+		"alter" : "response",
+		"query" : "ALTER TABLE `#__easyblog_captcha` MODIFY `response` VARCHAR(5) NOT NULL DEFAULT '';"
+	}
+]

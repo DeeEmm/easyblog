@@ -1,0 +1,9 @@
+{
+	"group": "embeddables",
+	"element": "tweet",
+	"title": "Tweet",
+	"description": "Allows you to embed a twitter post.",
+	"keywords": "twitter, tweets, tweet",
+	"published": 1,
+    "ordering": 31
+}

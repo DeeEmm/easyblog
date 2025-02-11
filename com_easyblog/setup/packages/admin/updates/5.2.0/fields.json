@@ -1,0 +1,7 @@
+[
+    {
+        "table": "#__easyblog_fields_values",
+        "column" : "class_name",
+        "query" : "ALTER TABLE `#__easyblog_fields_values` ADD `class_name` text null"
+    }
+]

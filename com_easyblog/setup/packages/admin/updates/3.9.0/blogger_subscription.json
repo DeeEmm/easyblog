@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__easyblog_blogger_subscription",
+        "column"    : "fullname",
+        "query"     : "ALTER TABLE `#__easyblog_blogger_subscription` ADD COLUMN `fullname` varchar(255) NULL;"
+    }
+]

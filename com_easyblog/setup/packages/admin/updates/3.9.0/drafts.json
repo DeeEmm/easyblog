@@ -1,0 +1,57 @@
+[
+    {
+        "table"     : "#__easyblog_drafts",
+        "column"    : "copyrights",
+        "query"     : "ALTER TABLE `#__easyblog_drafts` ADD `copyrights` TEXT NOT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_drafts",
+        "column"    : "address",
+        "query"     : "ALTER TABLE `#__easyblog_drafts` ADD COLUMN `address` TEXT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_drafts",
+        "column"    : "latitude",
+        "query"     : "ALTER TABLE `#__easyblog_drafts` ADD COLUMN `latitude` VARCHAR(255) NULL;"
+    },
+    {
+        "table"     : "#__easyblog_drafts",
+        "column"    : "longitude",
+        "query"     : "ALTER TABLE `#__easyblog_drafts` ADD `longitude` TEXT NOT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_drafts",
+        "column"    : "external_source",
+        "query"     : "ALTER TABLE `#__easyblog_drafts` ADD COLUMN `external_source` TEXT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_drafts",
+        "column"    : "external_group_id",
+        "query"     : "ALTER TABLE `#__easyblog_drafts` ADD COLUMN `external_group_id` INT( 11 ) NULL;"
+    },
+    {
+        "table"     : "#__easyblog_drafts",
+        "column"    : "source",
+        "query"     : "ALTER TABLE `#__easyblog_drafts` ADD COLUMN `source` VARCHAR(255) NOT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_drafts",
+        "column"    : "language",
+        "query"     : "ALTER TABLE `#__easyblog_drafts` ADD `language` CHAR( 7 ) NOT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_drafts",
+        "column"    : "autopost_centralized",
+        "query"     : "ALTER TABLE `#__easyblog_drafts` ADD `autopost_centralized` TEXT NOT NULL AFTER `autopost`;"
+    },
+    {
+        "table"     : "#__easyblog_drafts",
+        "column"    : "image",
+        "query"     : "ALTER TABLE `#__easyblog_drafts` ADD `image` TEXT NOT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_drafts",
+        "column"    : "send_notification_emails",
+        "query"     : "ALTER TABLE `#__easyblog_drafts` ADD `send_notification_emails` TINYINT( 1 ) NOT NULL DEFAULT 1;"
+    }
+]

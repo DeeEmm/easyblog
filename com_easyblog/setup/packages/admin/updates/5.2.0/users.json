@@ -1,0 +1,7 @@
+[
+	{
+		"table" : "#__easyblog_users",
+		"column" : "ordering",
+		"query" : "ALTER TABLE `#__easyblog_users` ADD `ordering` int(11) unsigned NOT NULL DEFAULT '0'"
+	}
+]

@@ -1,0 +1,43 @@
+{
+	"group": "layout",
+	"element": "heading",
+	"title": "Heading Block",
+	"description": "Heading block allows the author to insert heading tags in the blog post.",
+	"keywords": "heading, header, title",
+	"published": 1,
+	"ordering": 1,
+	"params": [
+		{
+			"name": "default",
+			"type": "dropdown",
+			"default": "h2",
+			"label": "COM_EB_BLOCKS_HEADING_DEFAULT",
+			"options": [
+				{
+					"title": "Heading 1",
+					"value": "h1"
+				},
+				{
+					"title": "Heading 2",
+					"value": "h2"
+				},
+				{
+					"title": "Heading 3",
+					"value": "h3"
+				},
+				{
+					"title": "Heading 4",
+					"value": "h4"
+				},
+				{
+					"title": "Heading 5",
+					"value": "h5"
+				},
+				{
+					"title": "Heading 6",
+					"value": "h6"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYBLOG_MENU_CATEGORY_LAYOUT">
+		<message><![CDATA[COM_EASYBLOG_MENU_CATEGORY_LAYOUT_DESC]]></message>
+	</layout>
+
+	<fields name="request">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easyblog/elements">
+			<field name="id" type="categories" label="COM_EASYBLOG_MENU_SELECT_CATEGORY" required="true" description="COM_EASYBLOG_MENU_SELECT_CATEGORY_DESC" />
+		</fieldset>
+	</fields>
+
+	<fields name="params">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easyblog/elements" id="general" label="COM_EB_MENU_GENERAL">
+			<field name="cat_bloggerid" type="authors" default="" label="COM_EASYBLOG_MENU_FILTER_INCLUDE_ONLY_AUTHORS" description="COM_EASYBLOG_MENU_FILTER_INCLUDE_ONLY_AUTHORS_HELP" globals="0" />
+
+			<field name="row_style" config="category_row_style" type="dropdownglobal" configtype="list" default="-1" label="EB_POST_LISTING_STYLE" description="EB_POST_LISTING_STYLE_DESC">
+				<option value="row">Rows</option>
+				<option value="column">Columns</option>
+			</field>
+
+			<field name="column_style" config="category_column_style" type="dropdownglobal" configtype="list" showon="row_style:column" default="-1" label="COM_EB_LAYOUT_COLUMN_STYLE" description="COM_EB_LAYOUT_COLUMN_STYLE_DESC">
+				<option value="column">Grid Layout</option>
+				<option value="masonry">Masonry Layout</option>
+			</field>
+
+			<field name="card_column" config="category_card_column" useglobal="1" showon="row_style:column" type="columns" default="-1" label="COM_EB_FRONTPAGE_CARD_LAYOUT_COLUMN" description="COM_EB_FRONTPAGE_CARD_LAYOUT_COLUMN_DESC" />
+
+			<field name="layout_style" type="poststyle" default="default" useglobal="1" config="category_layout_style" label="COM_EB_POST_STYLE" description="COM_EB_POST_STYLE_DESC" />
+
+			<field name="row_divider" type="radio" showon="row_style:row" config="category_row_divider" default="1" class="btn-group" label="COM_EB_POST_DIVIDER" description="COM_EB_POST_DIVIDER_DESC">
+				<option value="0">COM_EASYBLOG_NO</option>
+				<option value="1">COM_EASYBLOG_YES</option>
+			</field>
+
+			<field name="category_header" config="category_category_header" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_CATEGORY_HEADER" description="COM_EASYBLOG_SHOW_CATEGORY_HEADER_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="category_avatar" config="category_category_avatar" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_CATEGORY_AVATAR" description="COM_EASYBLOG_SHOW_CATEGORY_AVATAR_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="category_title" config="category_category_title" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_CATEGORY_TITLE" description="COM_EASYBLOG_SHOW_CATEGORY_TITLE_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="category_description" config="category_category_description" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_CATEGORY_DESCRIPTION" description="COM_EASYBLOG_SHOW_CATEGORY_DESCRIPTION_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="category_subcategories" config="category_category_subcategories" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_SUBCATEGORIES" description="COM_EASYBLOG_SHOW_SUBCATEGORIES_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="category_subcategories_posts" config="category_category_subcategories_posts" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_SUBCATEGORIES_POSTS" description="COM_EASYBLOG_SHOW_SUBCATEGORIES_POSTS_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="category_subscribe_email" config="category_category_subscribe_email" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_SUBSCRIBE" description="COM_EASYBLOG_SHOW_SUBSCRIBE_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="category_subscribe_rss" config="category_category_subscribe_rss" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_SUBSCRIBE_RSS" description="COM_EASYBLOG_SHOW_SUBSCRIBE_RSS_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="category_post_customfields" config="category_category_post_customfields" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_POST_CUSTOM_FIELDS" description="COM_EASYBLOG_SHOW_POST_CUSTOM_FIELDS_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="post_nickel_column" config="category_post_nickel_column" type="dropdownglobal" configtype="list" default="-1" label="COM_EASYBLOG_NICKEL_COLUMN" description="COM_EASYBLOG_NICKEL_COLUMN_DESC">
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+			</field>
+
+			<field type="pagination" name="category_posts_limit" default="-1" label="COM_EB_POSTS_PER_PAGE" description="COM_EB_POSTS_PER_PAGE_DESC" globals="0" />
+		</fieldset>
+
+		<fieldset name="post" label="COM_EASYBLOG_MENU_POST_OPTIONS" info="COM_EASYBLOG_MENU_CATEGORY_POST_OPTIONS_INFO" id="post">
+			<field name="ordering" config="category_ordering" type="dropdownglobal" configtype="list" default="-1" label="COM_EB_MENU_CATEGORY_POSTS_ORDERING" description="COM_EB_MENU_CATEGORY_POSTS_ORDERING_DESC">
+				<option value="modified">COM_EASYBLOG_SETTINGS_LAYOUT_POSTS_ORDERING_OPTIONS_LAST_MODIFIED</option>
+				<option value="created">COM_EASYBLOG_SETTINGS_LAYOUT_POSTS_ORDERING_OPTIONS_LATEST</option>
+				<option value="title">COM_EASYBLOG_SETTINGS_LAYOUT_POSTS_ORDERING_OPTIONS_ALPHABET</option>
+				<option value="published">COM_EASYBLOG_SETTINGS_LAYOUT_POSTS_ORDERING_PUBLISHED</option>
+				<option value="hits">COM_EB_SETTINGS_LAYOUT_POSTS_ORDERING_VISITS</option>
+			</field>
+
+			<field name="ordering_direction" config="category_ordering_direction" type="dropdownglobal" configtype="list" default="-1" label="COM_EB_MENU_CATEGORY_POSTS_ORDERING_DIRECTION" description="COM_EB_MENU_CATEGORY_POSTS_ORDERING_DIRECTION_DESC">
+				<option value="desc">Descending</option>
+				<option value="asc">Ascending</option>
+			</field>
+
+			<field name="post_image" config="category_post_image" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_POST_IMAGE" description="COM_EASYBLOG_SHOW_POST_IMAGE_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="post_image_placeholder" config="category_post_image_placeholder" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_POST_IMAGE_PLACEHOLDER" description="COM_EASYBLOG_SHOW_POST_IMAGE_PLACEHOLDER_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="post_title" config="category_post_title" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_POST_TITLE" description="COM_EASYBLOG_SHOW_POST_TITLE_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="post_category" config="category_post_category" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_POST_CATEGORY" description="COM_EASYBLOG_SHOW_POST_CATEGORY_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="post_hits" config="category_post_hits" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_POST_HITS" description="COM_EASYBLOG_SHOW_POST_HITS_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="post_date" config="category_post_date" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_POST_DATE" description="COM_EASYBLOG_SHOW_POST_DATE_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="post_date_source" config="category_post_date_source" type="dropdownglobal" configtype="list" default="-1" label="COM_EASYBLOG_POST_DATE_SOURCE" description="COM_EASYBLOG_POST_DATE_SOURCE_DESC">
+				<option value="created">COM_EASYBLOG_POST_DATE_SOURCE_CREATION</option>
+				<option value="modified">COM_EASYBLOG_POST_DATE_SOURCE_MODIFIED</option>
+				<option value="publish_up">COM_EASYBLOG_POST_DATE_SOURCE_PUBLISHING</option>
+			</field>
+
+			<field name="post_ratings" config="category_post_ratings" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_POST_RATINGS" description="COM_EASYBLOG_SHOW_POST_RATINGS_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="post_comment_counter" config="category_post_comment_counter" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_COMMENT_COUNTER" description="COM_EASYBLOG_SHOW_COMMENT_COUNTER_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="post_copyrights" config="category_post_copyrights" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_POST_COPYRIGHTS" description="COM_EASYBLOG_SHOW_POST_COPYRIGHTS_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="post_author" config="category_post_author" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_POST_AUTHOR" description="COM_EASYBLOG_SHOW_POST_AUTHOR_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="post_author_avatar" config="category_post_author_avatar" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_POST_AUTHOR_AVATAR" description="COM_EASYBLOG_SHOW_POST_AUTHOR_AVATAR_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="post_tags" config="category_post_tags" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_POST_TAGS" description="COM_EASYBLOG_SHOW_POST_TAGS_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="post_type" config="category_post_type" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_POST_TYPE" description="COM_EASYBLOG_SHOW_POST_TYPE_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="post_social_buttons" config="category_post_social_buttons" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_SOCIAL_BUTTONS" description="COM_EASYBLOG_SHOW_SOCIAL_BUTTONS_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="post_readmore" config="category_post_readmore" type="dropdownglobal" default="-1" label="COM_EASYBLOG_SHOW_READMORE" description="COM_EASYBLOG_SHOW_READMORE_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

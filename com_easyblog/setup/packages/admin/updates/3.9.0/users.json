@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__easyblog_users",
+        "column"    : "permalink",
+        "query"     : "ALTER TABLE `#__easyblog_users` ADD COLUMN `permalink` varchar(255) NULL;"
+    }
+]

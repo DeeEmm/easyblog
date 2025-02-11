@@ -1,0 +1,9 @@
+{
+	"group": "elements",
+	"element": "links",
+	"title": "Links Block",
+	"description": "Allows you to insert a link content into the editor.'",
+	"keywords": "links, share, url, bookmark",
+	"published": 1,
+    "ordering": 10
+}

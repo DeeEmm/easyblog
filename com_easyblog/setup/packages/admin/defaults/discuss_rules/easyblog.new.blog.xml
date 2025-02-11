@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<easydiscuss type="badges">
+	<command>easyblog.new.blog</command>
+	<title>Posted a new blog post</title>
+	<description>This rule allows you to assign a badge or points for a user when they created a new blog post.</description>
+</easydiscuss>

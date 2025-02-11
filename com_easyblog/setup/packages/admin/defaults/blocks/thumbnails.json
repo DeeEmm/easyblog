@@ -1,0 +1,9 @@
+{
+	"group": "media",
+	"element": "thumbnails",
+	"title": "Thumbnails Block",
+	"description": "Allows you to insert a thumbnail into the editor",
+	"keywords": "thumbnails, small, images, photos",
+	"published": 1,
+    "ordering": 15
+}

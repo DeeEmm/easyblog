@@ -1,0 +1,12 @@
+[
+    {
+        "table"     : "#__easyblog_feedburner",
+        "column"    : "id",
+        "query"     : "ALTER TABLE `#__easyblog_feedburner` DROP PRIMARY KEY;"
+    },
+    {
+        "table"     : "#__easyblog_feedburner",
+        "column"    : "id",
+        "query"     : "ALTER TABLE `#__easyblog_feedburner` ADD COLUMN `id` bigint(20) UNSIGNED NOT NULL PRIMARY KEY AUTO_INCREMENT;"
+    }
+]

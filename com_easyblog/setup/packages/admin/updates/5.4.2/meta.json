@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__easyblog_meta",
+		"column" : "canonical",
+		"query" : "ALTER TABLE `#__easyblog_meta` ADD `canonical` TEXT NOT NULL AFTER `description`;"
+	}
+]

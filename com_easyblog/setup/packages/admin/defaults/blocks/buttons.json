@@ -1,0 +1,9 @@
+{
+	"group": "elements",
+	"element": "buttons",
+	"title": "Buttons Block",
+	"description": "Allows you to insert a button into the editor",
+	"keywords": "buttons, call to action",
+	"published": 1,
+    "ordering": 9
+}

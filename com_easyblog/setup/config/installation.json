@@ -1,0 +1,18 @@
+[
+	{
+		"index": 1,
+		"title": "COM_EB_INSTALLATION_LICENSE",
+		"desc": "COM_EB_INSTALLATION_LICENSE_DESC",
+		"template": "license"
+	}, {
+		"index": 2,
+		"title": "COM_EB_INSTALLATION_EXTRACTING_AND_INSTALLING",
+		"desc": "COM_EB_INSTALLATION_EXTRACTING_AND_INSTALLING_DESC",
+		"template": "installing"
+	}, {
+		"index": 3,
+		"title": "COM_EB_INSTALLATION_ADDONS",
+		"desc": "COM_EB_INSTALLATION_ADDONS_DESC",
+		"template": "addons"
+	}
+]

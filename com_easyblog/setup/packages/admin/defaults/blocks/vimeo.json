@@ -1,0 +1,9 @@
+{
+	"group": "embeddables",
+	"element": "vimeo",
+	"title": "Vimeo",
+	"description": "Allows you to embed a vimeo video.",
+	"keywords": "video, vimeo, videos, media",
+	"published": 1,
+    "ordering": 34
+}

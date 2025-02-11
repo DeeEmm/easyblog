@@ -1,0 +1,78 @@
+[
+    {
+        "table"     : "#__easyblog_feeds",
+        "column"    : "language",
+        "query"     : "ALTER TABLE `#__easyblog_feeds` ADD `language` TEXT NULL;"
+    },
+    {
+        "table"     : "#__easyblog_meta",
+        "index"    : "idx_meta_content_type",
+        "query"     : "ALTER TABLE `#__easyblog_meta` ADD INDEX `idx_meta_content_type` (`content_id`,`type`);"
+    },
+    {
+        "table"     : "#__easyblog_featured",
+        "index"    : "idx_featured_created",
+        "query"     : "ALTER TABLE `#__easyblog_featured` ADD INDEX `idx_featured_created` (`created`);"
+    },
+    {
+        "table"     : "#__easyblog_users",
+        "column"    : "custom_css",
+        "query"     : "ALTER TABLE `#__easyblog_users` ADD COLUMN `custom_css` text null"
+    },
+    {
+        "table"     : "#__easyblog_oauth",
+        "column"    : "expires",
+        "query"     : "ALTER TABLE `#__easyblog_oauth` ADD COLUMN `expires` datetime NULL"
+    },
+    {
+        "table"     : "#__easyblog_acl",
+        "column"    : "group",
+        "query"     : "ALTER TABLE `#__easyblog_acl` ADD COLUMN `group` varchar(255) NOT NULL"
+    },
+    {
+        "table"     : "#__easyblog_acl",
+        "index"    : "idx_acl_published",
+        "query"     : "ALTER TABLE `#__easyblog_acl` ADD INDEX `idx_acl_published` (`published`);"
+    },
+    {
+        "table"     : "#__easyblog_acl",
+        "index"    : "idx_acl_published_id",
+        "query"     : "ALTER TABLE `#__easyblog_acl` ADD INDEX `idx_acl_published_id` (`published`, `id`);"
+    },
+    {
+        "table"     : "#__easyblog_comment",
+        "index"    : "idx_comment_createdby",
+        "query"     : "ALTER TABLE `#__easyblog_comment` ADD INDEX `idx_comment_createdby` (`created_by`);"
+    },
+    {
+        "table"     : "#__easyblog_comment",
+        "index"    : "idx_comment_post_items",
+        "query"     : "ALTER TABLE `#__easyblog_comment` ADD INDEX `idx_comment_post_items` (`post_id`, `published`, `rgt`);"
+    },
+    {
+        "table"     : "#__easyblog_ratings",
+        "index"    : "idx_uid_type",
+        "query"     : "ALTER TABLE `#__easyblog_ratings` ADD INDEX `idx_uid_type` (`uid`, `type` (64), `value`)"
+    },
+    {
+        "table"     : "#__easyblog_ratings",
+        "index"    : "idx_uid_type_user",
+        "query"     : "ALTER TABLE `#__easyblog_ratings` ADD INDEX `idx_uid_type_user` (`uid`, `type` (64), `created_by`)"
+    },
+    {
+        "table"     : "#__easyblog_ratings",
+        "index"    : "idx_uid_type_user_session",
+        "query"     : "ALTER TABLE `#__easyblog_ratings` ADD INDEX `idx_uid_type_user_session` (`created_by`, `sessionid`)"
+    },
+    {
+        "table"     : "#__easyblog_ratings",
+        "index"    : "idx_uid_type_user_ipaddr",
+        "query"     : "ALTER TABLE `#__easyblog_ratings` ADD INDEX `idx_uid_type_user_ipaddr` (`uid`, `type` (64), `created_by`, `ip`)"
+    },
+    {
+        "table"     : "#__easyblog_feeds",
+        "column"    : "item_team",
+        "query"     : "ALTER TABLE `#__easyblog_feeds` ADD `item_team` int(11) NOT NULL;"
+    }
+]
+

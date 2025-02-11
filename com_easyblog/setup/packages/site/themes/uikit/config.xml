@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>UIkit </name>
+	<version>4.0</version>
+	<created>03/04/2019</created>
+	<updated>03/04/2019</updated>
+	<author>Stack Ideas Sdn Bhd</author>
+	<description>COM_EASYBLOG_THEME_WIREFRAME_DESC</description>
+</install>

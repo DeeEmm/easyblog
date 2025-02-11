@@ -1,0 +1,42 @@
+[
+	{
+		"title" 		: "COM_EASYBLOG_EASYSOCIAL_BADGE_BLOGGERHOLIC",
+		"description"	: "COM_EASYBLOG_EASYSOCIAL_BADGE_BLOGGERHOLIC_DESCRIPTION",
+		"howto"			: "COM_EASYBLOG_EASYSOCIAL_BADGE_BLOGGERHOLIC_HOWTO",
+		"alias"			: "bloggerholic",
+		"extension"		: "com_easyblog",
+		"command"		: "blog.create",
+		"avatar"		: "media/com_easyblog/images/badges/bloggerholic.png",
+		"frequency"		: 20
+	},
+	{
+		"title" 		: "Reviewer",
+		"description"	: "Reviews blog posts that is created on the site.",
+		"howto"			: "To unlock this badge, you need to rate more than 25 blog posts from the site.",
+		"alias"			: "reviewer",
+		"extension"		: "com_easyblog",
+		"command"		: "blog.rate",
+		"avatar"		: "media/com_easyblog/images/badges/reviewer.png",
+		"frequency"		: 25
+	},
+	{
+		"title" 		: "Bookworm",
+		"alias"			: "bookworm",
+		"description"	: "Someone who loves to read through blog posts.",
+		"howto"			: "To unlock this badge, read more than 30 blog posts on the site",
+		"command"		: "blog.read",
+		"extension"		: "com_easyblog",
+		"avatar"		: "media/com_easyblog/images/badges/bookworm.png",
+		"frequency"		: 30
+	},
+	{
+		"title" 		: "Blog Police",
+		"alias"			: "blog-police",
+		"description"	: "Helps moderate blog posts on the site by being a responsible user.",
+		"howto"			: "To unlock this badge, report invalid or spam blog post for more than 10 times.",
+		"command"		: "blog.report",
+		"extension"		: "com_easyblog",
+		"avatar"		: "media/com_easyblog/images/badges/blog-police.png",
+		"frequency"		: 10
+	}
+]

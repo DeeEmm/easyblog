@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alphauserpoints type="plugin">
+    <rule>Rate a blog post</rule>
+    <description>This rule add points if user rate a blog post</description>
+    <component>EasyBlog</component>
+    <plugin_function>plgaup_easyblog_rate_blog</plugin_function>
+    <fixed_points>true</fixed_points>
+</alphauserpoints>

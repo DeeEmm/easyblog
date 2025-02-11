@@ -1,0 +1,9 @@
+{
+	"group": "misc",
+	"element": "post",
+	"title": "Post",
+	"description": "Allows users to insert a post block into the document.",
+	"keywords": "posts, post, blog post, articles, existing",
+	"published": 2,
+	"ordering": 22
+}

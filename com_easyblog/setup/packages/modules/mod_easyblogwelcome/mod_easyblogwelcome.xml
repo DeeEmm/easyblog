@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>EasyBlog - Welcome Module</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>8th October 2024</creationDate>
+	<copyright>Copyright 2009 - 2015 Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GPL License v2</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://stackideas.com</authorUrl>
+	<version>6.0.15</version>
+	<description><![CDATA[A module that provides users login and will welcome the users if they are already logged in. Also consist of all sort of shortcut for easy access to EasyBlog's features.]]></description>
+	<languages>
+		<language tag="en-GB">en-GB.mod_easyblogwelcome.ini</language>
+	</languages>
+	<files>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+		<filename module="mod_easyblogwelcome">mod_easyblogwelcome.php</filename>
+		<filename>mod_easyblogwelcome.xml</filename>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/administrator/components/com_easyblog/elements">
+				<field name="display_avatar" type="boolean" default="1" label="MOD_EASYBLOG_DISPLAY_AUTHOR_AVATAR" description="MOD_EASYBLOG_DISPLAY_AUTHOR_AVATAR_DESC" />
+				<field name="enable_login" type="boolean" default="1" label="MOD_EASYBLOG_DISPLAY_LOGIN_FORM" description="MOD_EASYBLOG_DISPLAY_LOGIN_FORM_DESC" />
+				<field name="usesecure" type="boolean" default="0" label="MOD_EASYBLOG_DISPLAY_FORCE_SSL" description="MOD_EASYBLOG_DISPLAY_FORCE_SSL_DESC" />
+				<field name="login" type="menuitem" default="none" disable="separator" label="MOD_EASYBLOG_LOGIN_REDIRECT" description="MOD_EASYBLOG_LOGIN_REDIRECT_DESC" state="1">
+					<option value="0">MOD_EASYBLOG_STAY_SAME_PAGE</option>
+				</field>
+				<field name="logout" type="menuitem" default="none" disable="separator" label="MOD_EASYBLOG_LOGOUT_REDIRECT" description="MOD_EASYBLOG_LOGOUT_REDIRECT_DESC" state="1">
+					<option value="0">MOD_EASYBLOG_STAY_SAME_PAGE</option>
+				</field>
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="cache" type="list" default="0" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC" >
+					<option value="0">Never</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

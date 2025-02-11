@@ -1,0 +1,47 @@
+[
+    {
+        "table"     : "#__easyblog_category",
+        "column"    : "avatar",
+        "query"     : "ALTER TABLE `#__easyblog_category` ADD COLUMN `avatar` varchar(255) NULL;"
+    },
+    {
+        "table"     : "#__easyblog_category",
+        "column"    : "parent_id",
+        "query"     : "ALTER TABLE `#__easyblog_category` ADD COLUMN `parent_id` int(11) NULL default 0;"
+    },
+    {
+        "table"     : "#__easyblog_category",
+        "column"    : "description",
+        "query"     : "ALTER TABLE `#__easyblog_category` ADD COLUMN `description` TEXT NULL AFTER `title`;"
+    },
+    {
+        "table"     : "#__easyblog_category",
+        "column"    : "private",
+        "query"     : "ALTER TABLE `#__easyblog_category` ADD COLUMN `private` int(11) NULL default 0;"
+    },
+    {
+        "table"     : "#__easyblog_category",
+        "column"    : "level",
+        "query"     : "ALTER TABLE `#__easyblog_category` ADD COLUMN `level` int(11) unsigned default 0;"
+    },
+    {
+        "table"     : "#__easyblog_category",
+        "column"    : "lft",
+        "query"     : "ALTER TABLE `#__easyblog_category` ADD COLUMN `lft` int(11) unsigned default 0;"
+    },
+    {
+        "table"     : "#__easyblog_category",
+        "index"    : "easyblog_cat_lft",
+        "query"     : "ALTER TABLE `#__easyblog_category` ADD INDEX `easyblog_cat_lft` (`lft`);"
+    },
+    {
+        "table"     : "#__easyblog_category",
+        "column"    : "rgt",
+        "query"     : "ALTER TABLE `#__easyblog_category` ADD COLUMN `rgt` int(11) unsigned default 0;"
+    },
+    {
+        "table"     : "#__easyblog_category",
+        "column"    : "default",
+        "query"     : "ALTER TABLE `#__easyblog_category` ADD COLUMN `default` int(11) unsigned default 0;"
+    }
+]

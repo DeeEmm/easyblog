@@ -1,0 +1,9 @@
+{
+	"group": "embeddables",
+	"element": "instagram",
+	"title": "Instagram Block",
+	"description": "Allows you to embed an Instagram widget from Instagram in your blog post.",
+	"keywords": "instagram, photos, photo embed",
+	"published": 1,
+    "ordering": 25
+}

@@ -1,0 +1,9 @@
+{
+	"group": "embeddables",
+	"element": "soundcloud",
+	"title": "Soundcloud Block",
+	"description": "Allows you to embed a Soundcloud widget in your blog post.",
+	"keywords": "soundcloud, music, player, audio",
+	"published": 1,
+    "ordering": 28
+}

@@ -1,0 +1,32 @@
+/**
+* @package 		EasyBlog
+* @copyright	Copyright (C) 2010 - 2017 Stack Ideas Sdn Bhd. All rights reserved.
+* @license 		Proprietary Use License http://stackideas.com/licensing.html
+**/
+@import "config";
+
+
+@{EasyBlog} {
+	&.mod-easyblogarchive {
+		.eb-mod-item {
+			> a {
+				
+				&.collapsed {
+					> .fa {
+						margin: 0 10px 0 0;
+						.rotate(0);
+					}
+				}
+
+				.fa {
+					.transition(all .5s ease);
+					.rotate(90deg);
+				}
+			}
+		}
+		.eb-mod-item-submenu {
+			margin: 0 0 0 30px;
+		}
+	}
+}
+

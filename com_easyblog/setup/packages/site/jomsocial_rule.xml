@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jomsocial>
+	<component>com_easyblog</component>
+	<rules>
+		<rule>
+			<name>EasyBlog Upload new avatar</name>
+			<description>Add points to blogger upload avatar for the first time.</description>
+			<action_string>com_easyblog.avatar.upload</action_string>
+			<publish>true</publish>
+			<points>1</points>
+			<access_level>1</access_level>
+		</rule>
+		<rule>
+			<name>EasyBlog Create new category</name>
+			<description>Add points to blogger when create new category.</description>
+			<action_string>com_easyblog.category.add</action_string>
+			<publish>true</publish>
+			<points>1</points>
+			<access_level>1</access_level>
+		</rule>
+		<rule>
+			<name>EasyBlog Remove category</name>
+			<description>Deduct category creator's points when remove category.</description>
+			<action_string>com_easyblog.category.remove</action_string>
+			<publish>true</publish>
+			<points>-1</points>
+			<access_level>1</access_level>
+		</rule>
+		<rule>
+			<name>EasyBlog Create new tag</name>
+			<description>Add points to blogger when create new tag.</description>
+			<action_string>com_easyblog.tag.add</action_string>
+			<publish>true</publish>
+			<points>1</points>
+			<access_level>1</access_level>
+		</rule>
+		<rule>
+			<name>EasyBlog Remove tag</name>
+			<description>Deduct tag creator's points when remove tag.</description>
+			<action_string>com_easyblog.tag.remove</action_string>
+			<publish>true</publish>
+			<points>-1</points>
+			<access_level>1</access_level>
+		</rule>
+		<rule>
+			<name>EasyBlog Write new blog</name>
+			<description>Add points to blogger when write new blog entry.</description>
+			<action_string>com_easyblog.blog.add</action_string>
+			<publish>true</publish>
+			<points>2</points>
+			<access_level>1</access_level>
+		</rule>
+		<rule>
+			<name>EasyBlog Remove blog entry</name>
+			<description>Deduct blog author's points when blog entry get removed.</description>
+			<action_string>com_easyblog.blog.remove</action_string>
+			<publish>true</publish>
+			<points>-2</points>
+			<access_level>1</access_level>
+		</rule>
+		<rule>
+			<name>EasyBlog Add comment</name>
+			<description>Add points for author when posting a new comment.</description>
+			<action_string>com_easyblog.comments.add</action_string>
+			<publish>true</publish>
+			<points>1</points>
+			<access_level>1</access_level>
+		</rule>
+		<rule>
+			<name>EasyBlog Remove comment</name>
+			<description>Remove points for author when their comment is removed.</description>
+			<action_string>com_easyblog.comments.remove</action_string>
+			<publish>true</publish>
+			<points>-1</points>
+			<access_level>1</access_level>
+		</rule>
+		<rule>
+			<name>EasyBlog Add comment for blogger</name>
+			<description>Add points for blog author when a user posts a new comment.</description>
+			<action_string>com_easyblog.comments.addblogger</action_string>
+			<publish>true</publish>
+			<points>1</points>
+			<access_level>1</access_level>
+		</rule>
+		<rule>
+			<name>EasyBlog Remove comment</name>
+			<description>Remove points from author when a comment from their blog is removed.</description>
+			<action_string>com_easyblog.comments.removeblogger</action_string>
+			<publish>true</publish>
+			<points>-1</points>
+			<access_level>1</access_level>
+		</rule>
+	</rules>
+</jomsocial>

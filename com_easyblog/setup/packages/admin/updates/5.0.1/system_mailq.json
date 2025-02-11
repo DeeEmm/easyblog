@@ -1,0 +1,27 @@
+ [
+    {
+        "table"     : "#__easyblog_mailq",
+        "index"    : "idx_mailq_created",
+        "query"     : "ALTER TABLE `#__easyblog_mailq` ADD INDEX `idx_mailq_created` (`created`);"
+    },
+    {
+        "table"     : "#__easyblog_mailq",
+        "index"    : "idx_mailq_statuscreated",
+        "query"     : "ALTER TABLE `#__easyblog_mailq` ADD INDEX `idx_mailq_statuscreated` (`status`,`created`);"
+    },
+    {
+        "table"     : "#__easyblog_mailq",
+        "column"    : "template",
+        "query"     : "ALTER TABLE `#__easyblog_mailq` ADD COLUMN `template` varchar(255) default ''"
+    },
+    {
+        "table"     : "#__easyblog_mailq",
+        "column"    : "data",
+        "query"     : "ALTER TABLE `#__easyblog_mailq` ADD COLUMN `data` LONGTEXT default ''"
+    },
+    {
+        "table"     : "#__easyblog_mailq",
+        "column"    : "param",
+        "query"     : "ALTER TABLE `#__easyblog_mailq` ADD COLUMN `param` TEXT default ''"
+    }
+]

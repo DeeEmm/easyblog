@@ -1,0 +1,9 @@
+{
+	"group": "embeddables",
+	"element": "behance",
+	"title": "Behance Block",
+	"description": "Allows you to embed a Behance widget in your blog post.",
+	"keywords": "behance, photos, creativity, creative",
+	"published": 1,
+    "ordering": 27
+}

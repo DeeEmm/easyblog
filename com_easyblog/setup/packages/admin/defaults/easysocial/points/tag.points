@@ -1,0 +1,21 @@
+
+[
+	{
+		"title"			: "Create New Tag",
+		"alias"			: "create-blog-tag",
+		"description"	: "Earn points when you create a new tag and assign it to your blog post.",
+		"command"		: "tag.create",
+		"extension"		: "com_easyblog",
+		"state"			: true,
+		"points"		: 1
+	},
+	{
+		"title"			: "Tag Removed",
+		"alias"			: "remove-blog-tag",
+		"description"	: "Points will be deducted when a tag is removed from the blog post.",
+		"command"		: "tag.remove",
+		"extension"		: "com_easyblog",
+		"state"			: true,
+		"points"		: -1
+	}
+]

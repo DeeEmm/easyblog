@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__easyblog_post",
+		"column" : "reautopost",
+		"query" : "ALTER TABLE `#__easyblog_post` ADD COLUMN `reautopost` tinyint(1) unsigned NOT NULL DEFAULT 0;"
+	}
+]

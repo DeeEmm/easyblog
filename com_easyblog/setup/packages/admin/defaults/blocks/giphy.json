@@ -1,0 +1,9 @@
+{
+	"group": "embeddables",
+	"element": "giphy",
+	"title": "GIPHY",
+	"description": "GIPHY block allows authors to insert and share an item from GIPHY",
+	"keywords": "giphy, gif, sticker",
+	"published": 1,
+	"ordering": 49
+}

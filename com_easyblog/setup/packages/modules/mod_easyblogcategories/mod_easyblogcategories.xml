@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>Easyblog - Categories Module</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>8th October 2024</creationDate>
+	<copyright>Copyright 2009 - 2015 Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GPL License v2</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://stackideas.com</authorUrl>
+	<version>6.0.15</version>
+	<description>
+		<![CDATA[Lists down categories which are created in EasyBlog.]]>
+	</description>
+	<languages>
+		<language tag="en-GB">en-GB.mod_easyblogcategories.ini</language>
+	</languages>
+	<files>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+		<filename module="mod_easyblogcategories">mod_easyblogcategories.php</filename>
+		<filename>mod_easyblogcategories.xml</filename>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/administrator/components/com_easyblog/elements">
+				<field name="layouttype" type="list" default="tree" label="MOD_EASYBLOG_LAYOUT" description="MOD_EASYBLOG_LAYOUT_DESC">
+					<option value="toggle">MOD_EASYBLOG_TOGGLE_LAYOUT</option>
+					<option value="tree">MOD_EASYBLOG_CATEGORY_TREE</option>
+					<option value="flat">MOD_EASYBLOG_CATEGORY_FLAT</option>
+				</field>
+
+				<field name="order" type="list" default="popular" label="MOD_EASYBLOG_CATEGORY_ORDERING" description="MOD_EASYBLOG_CATEGORY_ORDERING_DESC">
+					<option value="alphabet">MOD_EASYBLOG_ORDERING_ALPHABETICAL</option>
+					<option value="latest">MOD_EASYBLOG_ORDERING_LATEST</option>
+					<option value="popular">MOD_EASYBLOG_ORDERING_POPULAR</option>
+					<option value="ordering">MOD_EASYBLOG_ORDERING_ITEM</option>
+				</field>
+
+				<field name="catid" type="multicategories" default="" label="MOD_EASYBLOG_SELECT_MULTIPLE_CATEGORIES" description="MOD_EASYBLOG_SELECT_MULTIPLE_CATEGORIES_DESC" />
+				<field name="count" type="text" class="input-mini text-center" default="0" label="MOD_EASYBLOG_TOTAL_CATEGORIES_TO_DISPLAY" description="MOD_EASYBLOG_TOTAL_CATEGORIES_TO_DISPLAY_DESC" />
+				<field name="showcount" type="boolean" default="0" label="MOD_EASYBLOG_DISPLAY_CATEGORY_COUNTER" description="MOD_EASYBLOG_DISPLAY_CATEGORY_COUNTER_DESC" />
+				<field name="hideemptypost" type="boolean" default="1" label="MOD_EASYBLOG_HIDE_EMPTY_CATEGORIES" description="MOD_EASYBLOG_HIDE_EMPTY_CATEGORIES_DESC" />
+				<field name="showcavatar" type="boolean" default="1" label="MOD_EASYBLOG_DISPLAY_CATEGORY_AVATAR" description="MOD_EASYBLOG_DISPLAY_CATEGORY_AVATAR_DESC" />
+				<field name="showrss" type="boolean" default="1" label="MOD_EASYBLOG_DISPLAY_RSS" description="MOD_EASYBLOG_DISPLAY_RSS_DESC" />
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+				<field name="cache" type="list" default="0" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC" >
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING
+					</option>
+				</field>
+
+				<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

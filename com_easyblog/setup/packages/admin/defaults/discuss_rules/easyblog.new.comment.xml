@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<easydiscuss type="badges">
+	<command>easyblog.new.comment</command>
+	<title>Posted a comment on the blog</title>
+	<description>This rule allows you to assign a badge or points for a user when they post a comment in the blog.</description>
+</easydiscuss>

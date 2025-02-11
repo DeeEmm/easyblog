@@ -1,0 +1,22 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "monolog/monolog": "~1.17",
+        "symfony/polyfill-intl-idn": "~1.19.0",
+        "symfony/polyfill-intl-normalizer": "~1.19.0",
+        "symfony/polyfill-php70": "~1.18.0",
+        "symfony/polyfill-php72": "~1.19.0",
+        "paragonie/random_compat": "~2.0",
+        "paragonie/constant_time_encoding": "~1.0",
+        "google/apiclient": "^2.9"
+    },
+    "scripts": {
+        "pre-autoload-dump": "Google\\Task\\Composer::cleanup"
+    },
+    "extra": {
+        "google/apiclient-services": [
+            "Drive",
+            "Oauth2"
+        ]
+    }
+}

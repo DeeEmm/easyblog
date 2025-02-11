@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alphauserpoints type="plugin">
+    <rule>Upload avatar</rule>
+    <description>This rule add points if user upload avatar in EasyBlog</description>
+    <component>EasyBlog</component>
+    <plugin_function>plgaup_easyblog_upload_avatar</plugin_function>
+    <fixed_points>true</fixed_points>
+</alphauserpoints>

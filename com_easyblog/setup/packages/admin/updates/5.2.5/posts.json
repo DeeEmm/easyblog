@@ -1,0 +1,7 @@
+[
+    {
+        "table": "#__easyblog_post_templates",
+        "column" : "ordering",
+        "query" : "ALTER TABLE `#__easyblog_post_templates` ADD `ordering` tinyint(1) unsigned NOT NULL DEFAULT 0;"
+    }
+]

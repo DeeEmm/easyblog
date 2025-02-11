@@ -1,0 +1,9 @@
+{
+	"group": "embeddables",
+	"element": "ted",
+	"title": "TED",
+	"description": "Allows you to embed videos from TED",
+	"keywords": "video, ted, talks, media",
+	"published": 1,
+    "ordering": 37
+}

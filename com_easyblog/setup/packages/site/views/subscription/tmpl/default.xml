@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYBLOG_MENU_SUBSCRIPTION_LAYOUT">
+		<message>
+			<![CDATA[COM_EASYBLOG_MENU_SUBSCRIPTION_LAYOUT_DESC]]>
+		</message>
+	</layout>
+</metadata>

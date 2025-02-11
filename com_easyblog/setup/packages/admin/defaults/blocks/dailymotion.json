@@ -1,0 +1,9 @@
+{
+	"group": "embeddables",
+	"element": "dailymotion",
+	"title": "Daily Motion",
+	"description": "Allows you to embed a DailyMotion video.",
+	"keywords": "video, daily motion, videos, media",
+	"published": 1,
+    "ordering": 35
+}

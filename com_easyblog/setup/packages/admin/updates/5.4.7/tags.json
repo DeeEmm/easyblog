@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__easyblog_post_tag",
+		"column" : "isrevision",
+		"query" : "ALTER TABLE `#__easyblog_post_tag` ADD COLUMN `isrevision` tinyint(1) DEFAULT NULL;"
+	}
+]

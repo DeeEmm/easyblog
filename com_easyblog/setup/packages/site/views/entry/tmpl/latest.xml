@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYBLOG_MENU_ENTRY_LATEST_LAYOUT">
+		<message><![CDATA[COM_EASYBLOG_MENU_ENTRY_LATEST_LAYOUT_DESC]]></message>
+	</layout>
+	
+	<fields name="params">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easyblog/elements">
+            <field name="inclusion" type="multicategories" default="" label="COM_EASYBLOG_MENU_FILTER_SELECT_CATEGORIES" description="COM_EASYBLOG_MENU_FILTER_SELECT_CATEGORIES_DESC" />
+
+			<field name="entry_include_featured" type="radio" default="0" class="btn-group" label="COM_EASYBLOG_INCLUDE_FEATURED_POSTS" description="COM_EASYBLOG_INCLUDE_FEATURED_POSTS_DESC">
+				<option value="0">COM_EASYBLOG_NO</option>
+				<option value="1">COM_EASYBLOG_YES</option>
+			</field>			
+		</fieldset>	
+	</fields>
+</metadata>

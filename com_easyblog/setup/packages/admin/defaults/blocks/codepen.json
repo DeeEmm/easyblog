@@ -1,0 +1,9 @@
+{
+	"group": "embeddables",
+	"element": "codepen",
+	"title": "Codepen Block",
+	"description": "Allows you to embed codepen block in your blog post.",
+	"keywords": "code, editor, syntax highlighter, code preview",
+	"published": 1,
+    "ordering": 30
+}

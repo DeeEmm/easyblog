@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="search" method="upgrade">
+	<name>Search - Easy Blog</name>
+	<author>StackIdeas Private Limited</author>
+	<creationDate>25 April 2017</creationDate>
+	<copyright>Copyright 2010 - 2017 StackIdeas. All rights reserved.</copyright>
+	<license>GPL License</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>https://stackideas.com</authorUrl>
+	<version>5.1.0</version>
+	<description>Allows user to search for blog entries created from Easy Blog</description>
+	<files>
+		<filename plugin="easyblog">easyblog.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<params>
+		<param name="limit" type="text" size="5" default="50" label="Search result limit" description="Set the number of search result items to be displayed"/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+	</params>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="limit"
+					type="text"
+					size="5"
+					default="50"
+					label="Search result limit"
+					description="Set the number of search result items to be displayed">
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

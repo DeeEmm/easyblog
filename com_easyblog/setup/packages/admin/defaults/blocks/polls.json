@@ -1,0 +1,9 @@
+{
+    "group": "embeddables",
+    "element": "polls",
+    "title": "Polls",
+    "description": "Polls block allows authors to embed a poll on the post for users to vote",
+    "keywords": "poll, polls, vote, choice",
+    "published": 1,
+    "ordering": 50
+}

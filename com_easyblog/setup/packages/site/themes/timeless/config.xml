@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>Timeless </name>
+	<version>4.0</version>
+	<created>01/05/2014</created>
+	<updated>01/05/2014</updated>
+	<author>Stack Ideas Sdn Bhd</author>
+	<description>COM_EASYBLOG_THEME_WIREFRAME_DESC</description>
+
+	<params addpath="/administrator/components/com_easyblog/elements">
+		<param type="themes" name="parent" label="COM_EASYBLOG_THEME_PARENT_THEME" description="COM_EASYBLOG_THEME_PARENT_THEME_DESC" />
+		<param type="themes" name="parent_css" label="COM_EASYBLOG_THEME_PARENT_CSS" description="COM_EASYBLOG_THEME_PARENT_CSS_DESC" />
+		<param type="radio" name="show_headers_latestentries" label="COM_EASYBLOG_THEME_SHOW_LATEST_ENTRIES_IN_HEADER" description="COM_EASYBLOG_THEME_SHOW_LATEST_ENTRIES_IN_HEADER_DESC" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_author" label="COM_EASYBLOG_THEME_SHOW_POSTED_BY" description="COM_EASYBLOG_THEME_SHOW_POSTED_BY_DESC" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_created_date" label="COM_EASYBLOG_THEME_SHOW_CREATION_DATE" description="COM_EASYBLOG_THEME_SHOW_CREATION_DATE_DESC" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="list" name="creation_source" label="COM_EASYBLOG_THEME_POSTED_DATE_SOURCE" description="COM_EASYBLOG_THEME_POSTED_DATE_SOURCE_DESC" default="created">
+			<option value="created">COM_EASYBLOG_CREATED</option>
+			<option value="modified">COM_EASYBLOG_LAST_MODIFIED</option>
+		</param>
+		<param type="radio" name="show_last_modified" label="COM_EASYBLOG_THEME_SHOW_LAST_MODIFIED" description="COM_EASYBLOG_THEME_SHOW_LAST_MODIFIED_DESC" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_category" label="COM_EASYBLOG_THEME_SHOW_CATEGORY" description="COM_EASYBLOG_THEME_SHOW_CATEGORY_DESC" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_tags" label="COM_EASYBLOG_THEME_SHOW_TAGS" description="COM_EASYBLOG_THEME_SHOW_TAGS_DESC" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="list" name="tags_color_scheme" label="COM_EASYBLOG_THEME_TAGS_COLOR_SCHEME" description="COM_EASYBLOG_THEME_TAGS_COLOR_SCHEME_DESC" default="black">
+			<option value="black">COM_EASYBLOG_THEME_TAG_COLOR_SCHEME_BLACK</option>
+			<option value="orange">COM_EASYBLOG_THEME_TAG_COLOR_SCHEME_ORANGE</option>
+			<option value="grey">COM_EASYBLOG_THEME_TAG_COLOR_SCHEME_GREY</option>
+			<option value="blue">COM_EASYBLOG_THEME_TAG_COLOR_SCHEME_BLUE</option>
+		</param>
+		<param type="radio" name="show_tags_frontpage" label="COM_EASYBLOG_THEME_SHOW_TAGS_ON_FRONTPAGE" description="COM_EASYBLOG_THEME_SHOW_TAGS_ON_FRONTPAGE_DESC" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_avatar_frontpage" label="COM_EASYBLOG_THEME_SHOW_AVATAR_ON_FRONTPAGE" description="COM_EASYBLOG_THEME_SHOW_AVATAR_ON_FRONTPAGE_DESC" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_avatar_entry" label="COM_EASYBLOG_THEME_SHOW_AVATAR_ON_ENTRYPAGE" description="COM_EASYBLOG_THEME_SHOW_AVATAR_ON_ENTRYPAGE_DESC" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_hits" label="COM_EASYBLOG_THEME_SHOW_HITS" description="COM_EASYBLOG_THEME_SHOW_HITS_DESC" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_comments" label="COM_EASYBLOG_THEME_SHOW_COMMENTS_LINK" description="COM_EASYBLOG_THEME_SHOW_COMMENTS_LINK_DESC" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_fontchanger" label="COM_EASYBLOG_THEME_SHOW_FONT_RESIZER" description="COM_EASYBLOG_THEME_SHOW_FONT_RESIZER_DESC" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_blogger_filterbar" label="COM_EASYBLOG_THEME_SHOW_BLOGGER_FILTER_BAR" description="COM_EASYBLOG_THEME_SHOW_BLOGGER_FILTER_BAR_DESC" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_bloggerstats" label="COM_EASYBLOG_THEME_SHOW_BLOGGER_STATISTIC" description="COM_EASYBLOG_THEME_SHOW_BLOGGER_STATISTIC_DESC" default="0">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_bloggerstatsitem" label="COM_EASYBLOG_THEME_SHOW_BLOGGER_ENTRIES_IN_STATISTIC" description="COM_EASYBLOG_THEME_SHOW_BLOGGER_ENTRIES_IN_STATISTIC_DESC" default="0">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_categorystats" label="COM_EASYBLOG_THEME_SHOW_CATEGORY_STATISTIC" description="COM_EASYBLOG_THEME_SHOW_CATEGORY_STATISTIC_DESC" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_categorystatsitem" label="COM_EASYBLOG_THEME_SHOW_CATEGORY_ENTRIES_IN_STATISTIC" description="COM_EASYBLOG_THEME_SHOW_CATEGORY_ENTRIES_IN_STATISTIC_DESC" default="0">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+
+		<param type="radio" name="show_teamblogstats" label="COM_EASYBLOG_THEME_SHOW_TEAMBLOG_STATISTIC" description="COM_EASYBLOG_THEME_SHOW_TEAMBLOG_STATISTIC_DESC" default="0">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_teamblogstatsitem" label="COM_EASYBLOG_THEME_SHOW_TEAMBLOG_ENTRIES_IN_STATISTIC" description="COM_EASYBLOG_THEME_SHOW_TEAMBLOG_ENTRIES_IN_STATISTIC_DESC" default="0">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_teamblogavatar" label="COM_EASYBLOG_THEME_SHOW_TEAMBLOG_AVATAR" description="COM_EASYBLOG_THEME_SHOW_TEAMBLOG_AVATAR_DESC" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_category_bloggers_avatar" label="COM_EASYBLOG_THEME_SHOW_CATEGORY_BLOGGERS_AVATAR" description="COM_EASYBLOG_THEME_SHOW_CATEGORY_BLOGGERS_AVATAR_DESC" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param type="radio" name="show_category_header" label="COM_EASYBLOG_THEME_SHOW_CATEGORY_HEADER" description="COM_EASYBLOG_THEME_SHOW_CATEGORY_HEADER_DESC" default="1">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+	</params>
+
+	<config>
+		<fields addpath="/administrator/components/com_easyblog/elements">
+			<fieldset name="basic">
+				<field type="themes" name="parent" label="COM_EASYBLOG_THEME_PARENT_THEME" description="COM_EASYBLOG_THEME_PARENT_THEME_DESC" />
+				<field type="themes" name="parent_css" label="COM_EASYBLOG_THEME_PARENT_CSS" description="COM_EASYBLOG_THEME_PARENT_CSS_DESC" />
+
+				<field type="radio" name="show_headers_latestentries" label="COM_EASYBLOG_THEME_SHOW_LATEST_ENTRIES_IN_HEADER" description="COM_EASYBLOG_THEME_SHOW_LATEST_ENTRIES_IN_HEADER_DESC" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_author" label="COM_EASYBLOG_THEME_SHOW_POSTED_BY" description="COM_EASYBLOG_THEME_SHOW_POSTED_BY_DESC" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_created_date" label="COM_EASYBLOG_THEME_SHOW_CREATION_DATE" description="COM_EASYBLOG_THEME_SHOW_CREATION_DATE_DESC" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="list" name="creation_source" label="COM_EASYBLOG_THEME_POSTED_DATE_SOURCE" description="COM_EASYBLOG_THEME_POSTED_DATE_SOURCE_DESC" default="created">
+					<option value="created">COM_EASYBLOG_CREATED</option>
+					<option value="modified">COM_EASYBLOG_LAST_MODIFIED</option>
+				</field>
+				<field type="radio" name="show_last_modified" label="COM_EASYBLOG_THEME_SHOW_LAST_MODIFIED" description="COM_EASYBLOG_THEME_SHOW_LAST_MODIFIED_DESC" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_category" label="COM_EASYBLOG_THEME_SHOW_CATEGORY" description="COM_EASYBLOG_THEME_SHOW_CATEGORY_DESC" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_tags" label="COM_EASYBLOG_THEME_SHOW_TAGS" description="COM_EASYBLOG_THEME_SHOW_TAGS_DESC" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="list" name="tags_color_scheme" label="COM_EASYBLOG_THEME_TAGS_COLOR_SCHEME" description="COM_EASYBLOG_THEME_TAGS_COLOR_SCHEME_DESC" default="black">
+					<option value="black">COM_EASYBLOG_THEME_TAG_COLOR_SCHEME_BLACK</option>
+					<option value="orange">COM_EASYBLOG_THEME_TAG_COLOR_SCHEME_ORANGE</option>
+					<option value="grey">COM_EASYBLOG_THEME_TAG_COLOR_SCHEME_GREY</option>
+					<option value="blue">COM_EASYBLOG_THEME_TAG_COLOR_SCHEME_BLUE</option>
+				</field>
+				<field type="radio" name="show_tags_frontpage" label="COM_EASYBLOG_THEME_SHOW_TAGS_ON_FRONTPAGE" description="COM_EASYBLOG_THEME_SHOW_TAGS_ON_FRONTPAGE_DESC" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_avatar_frontpage" label="COM_EASYBLOG_THEME_SHOW_AVATAR_ON_FRONTPAGE" description="COM_EASYBLOG_THEME_SHOW_AVATAR_ON_FRONTPAGE_DESC" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_avatar_entry" label="COM_EASYBLOG_THEME_SHOW_AVATAR_ON_ENTRYPAGE" description="COM_EASYBLOG_THEME_SHOW_AVATAR_ON_ENTRYPAGE_DESC" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_hits" label="COM_EASYBLOG_THEME_SHOW_HITS" description="COM_EASYBLOG_THEME_SHOW_HITS_DESC" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_comments" label="COM_EASYBLOG_THEME_SHOW_COMMENTS_LINK" description="COM_EASYBLOG_THEME_SHOW_COMMENTS_LINK_DESC" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_fontchanger" label="COM_EASYBLOG_THEME_SHOW_FONT_RESIZER" description="COM_EASYBLOG_THEME_SHOW_FONT_RESIZER_DESC" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_blogger_filterbar" label="COM_EASYBLOG_THEME_SHOW_BLOGGER_FILTER_BAR" description="COM_EASYBLOG_THEME_SHOW_BLOGGER_FILTER_BAR_DESC" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_bloggerstats" label="COM_EASYBLOG_THEME_SHOW_BLOGGER_STATISTIC" description="COM_EASYBLOG_THEME_SHOW_BLOGGER_STATISTIC_DESC" default="0">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_bloggerstatsitem" label="COM_EASYBLOG_THEME_SHOW_BLOGGER_ENTRIES_IN_STATISTIC" description="COM_EASYBLOG_THEME_SHOW_BLOGGER_ENTRIES_IN_STATISTIC_DESC" default="0">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+
+				<field type="radio" name="show_categorystats" label="COM_EASYBLOG_THEME_SHOW_CATEGORY_STATISTIC" description="COM_EASYBLOG_THEME_SHOW_CATEGORY_STATISTIC_DESC" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_categorystatsitem" label="COM_EASYBLOG_THEME_SHOW_CATEGORY_ENTRIES_IN_STATISTIC" description="COM_EASYBLOG_THEME_SHOW_CATEGORY_ENTRIES_IN_STATISTIC_DESC" default="0">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_teamblogstats" label="COM_EASYBLOG_THEME_SHOW_TEAMBLOG_STATISTIC" description="COM_EASYBLOG_THEME_SHOW_TEAMBLOG_STATISTIC_DESC" default="0">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_teamblogstatsitem" label="COM_EASYBLOG_THEME_SHOW_TEAMBLOG_ENTRIES_IN_STATISTIC" description="COM_EASYBLOG_THEME_SHOW_TEAMBLOG_ENTRIES_IN_STATISTIC_DESC" default="0">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_teamblogavatar" label="COM_EASYBLOG_THEME_SHOW_TEAMBLOG_AVATAR" description="COM_EASYBLOG_THEME_SHOW_TEAMBLOG_AVATAR_DESC" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_category_bloggers_avatar" label="COM_EASYBLOG_THEME_SHOW_CATEGORY_BLOGGERS_AVATAR" description="COM_EASYBLOG_THEME_SHOW_CATEGORY_BLOGGERS_AVATAR_DESC" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+				<field type="radio" name="show_category_header" label="COM_EASYBLOG_THEME_SHOW_CATEGORY_HEADER" description="COM_EASYBLOG_THEME_SHOW_CATEGORY_HEADER_DESC" default="1">
+					<option value="1">Yes</option>
+					<option value="0">No</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</install>

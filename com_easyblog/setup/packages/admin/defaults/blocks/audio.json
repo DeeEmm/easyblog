@@ -1,0 +1,9 @@
+{
+	"group": "media",
+	"element": "audio",
+	"title": "Audio Block",
+	"description": "Allows you to embed an audio block into your blog post.",
+	"keywords": "audio, mp3, songs, media",
+	"published": 1,
+    "ordering": 17
+}

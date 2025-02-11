@@ -1,0 +1,9 @@
+{
+	"group": "layout",
+	"element": "columns",
+	"title": "Columns Block",
+	"description": "Allows you to insert multi column row into the editor",
+	"keywords": "columns, divider",
+	"published": 1,
+    "ordering": 4
+}

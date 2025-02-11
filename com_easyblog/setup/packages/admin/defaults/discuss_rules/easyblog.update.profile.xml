@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<easydiscuss type="badges">
+	<command>easyblog.update.profile</command>
+	<title>Updated EasyBlog profile</title>
+	<description>This rule allows you to assign a badge or points for a user when they update their profile.</description>
+</easydiscuss>

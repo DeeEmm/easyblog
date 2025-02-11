@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__easyblog_category_acl",
+		"column" : "acl_type",
+		"query" : "ALTER TABLE `#__easyblog_category_acl` ADD COLUMN `acl_type` varchar(255) NOT NULL AFTER `acl_id`;"
+	}
+]

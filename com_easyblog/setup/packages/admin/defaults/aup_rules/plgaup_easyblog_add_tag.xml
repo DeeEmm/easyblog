@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<alphauserpoints type="plugin">
+    <rule>Create new tag</rule>
+    <description>This rule add points if user create new tag in EasyBlog</description>
+    <component>EasyBlog</component>
+    <plugin_function>plgaup_easyblog_add_tag</plugin_function>
+    <fixed_points>true</fixed_points>
+</alphauserpoints>

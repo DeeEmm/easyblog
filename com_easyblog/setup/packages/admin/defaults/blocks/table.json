@@ -1,0 +1,9 @@
+{
+	"group": "layout",
+	"element": "table",
+	"title": "Table Block",
+	"description": "Allows you to insert a table into the editor",
+	"keywords": "table, grid, excel, spreadsheet",
+	"published": 1,
+    "ordering": 5
+}

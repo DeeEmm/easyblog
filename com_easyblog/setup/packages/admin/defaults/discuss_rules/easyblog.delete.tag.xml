@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<easydiscuss type="badges">
+	<command>easyblog.delete.tag</command>
+	<title>Deleted a blog tag</title>
+	<description>This rule allows you to assign a badge or deduct points for a user when they remove tags from their blog post.</description>
+</easydiscuss>

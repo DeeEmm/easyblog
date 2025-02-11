@@ -1,0 +1,9 @@
+{
+	"group": "embeddables",
+	"element": "facebook",
+	"title": "Facebook",
+	"description": "Embed Facebook posts in your blog post by using this block.",
+	"keywords": "Facebook, social networking, social",
+	"published": 1,
+    "ordering": 41
+}

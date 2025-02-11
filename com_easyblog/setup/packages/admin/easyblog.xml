@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0.0" method="upgrade">
+	<name>com_easyblog</name>
+	<creationDate>8th October 2024</creationDate>
+	<author>Stack Ideas Sdn Bhd</author>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>https://stackideas.com</authorUrl>
+	<copyright>Copyright Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GPL License v2</license>
+	<version>6.0.15</version>
+	<description>
+		EasyBlog is a Joomla! blog extension that simplifies your day to day blogging experience with Joomla. Coupled with a powerful multiple bloggers platform.
+	</description>
+	<scriptfile>script.php</scriptfile>
+	<administration>
+		<menu link="option=com_easyblog" img="../media/com_easyblog/images/easyblog-16x16.png">COM_EASYBLOG</menu>
+		<submenu>
+			<menu link="option=com_easyblog">COM_EASYBLOG_ADMIN_MENU_DASHBOARD</menu>
+			<menu view="settings">COM_EASYBLOG_ADMIN_MENU_SETTINGS</menu>
+			<menu view="metas">COM_EASYBLOG_ADMIN_MENU_SEO</menu>
+			<menu view="autoposting">COM_EASYBLOG_ADMIN_MENU_AUTOPOSTING</menu>
+			<menu view="blogs">COM_EASYBLOG_ADMIN_MENU_POSTS</menu>
+			<menu view="feeds">COM_EASYBLOG_ADMIN_MENU_FEED_IMPORTER</menu>
+			<menu view="categories">COM_EASYBLOG_ADMIN_MENU_CATEGORIES</menu>
+			<menu view="fields">COM_EASYBLOG_ADMIN_MENU_CUSTOMFIELDS</menu>
+			<menu view="tags">COM_EASYBLOG_ADMIN_MENU_TAGS</menu>
+			<menu view="bloggers">COM_EASYBLOG_ADMIN_MENU_AUTHORS</menu>
+			<menu view="teamblogs">COM_EASYBLOG_ADMIN_MENU_TEAMBLOGS</menu>
+			<menu view="subscriptions">COM_EASYBLOG_ADMIN_MENU_SUBSCRIPTIONS</menu>
+			<menu view="acls">COM_EASYBLOG_ADMIN_MENU_ACL</menu>
+			<menu view="themes">COM_EASYBLOG_ADMIN_MENU_THEMES</menu>
+			<menu view="comments">COM_EASYBLOG_ADMIN_MENU_COMMENTS</menu>
+			<menu view="polls">COM_EB_ADMIN_MENU_POLLS</menu>
+			<menu view="reactions">COM_EASYBLOG_ADMIN_MENU_REACTIONS</menu>
+			<menu view="blocks">COM_EASYBLOG_ADMIN_MENU_BLOCKS</menu>
+			<menu view="spools">COM_EASYBLOG_ADMIN_MENU_MAIL_ACTIVITIES</menu>
+			<menu view="modules">COM_EASYBLOG_ADMIN_MENU_MODULES</menu>
+			<menu view="languages">COM_EASYBLOG_ADMIN_MENU_LANGUAGES</menu>
+			<menu view="reports">COM_EASYBLOG_ADMIN_MENU_REPORTING</menu>
+			<menu view="migrators">COM_EASYBLOG_ADMIN_MENU_MIGRATORS</menu>
+		</submenu>
+		<files folder="admin">
+			<folder>languages</folder>
+			<folder>setup</folder>
+			<file>access.xml</file>
+			<file>config.xml</file>
+			<file>setup.html</file>
+			<file>easyblog.php</file>
+			<file>easyblog.xml</file>
+			<file>script.php</file>
+		</files>
+		<languages>
+			<language tag="en-GB">languages/admin/en-GB.com_easyblog.ini</language>
+			<language tag="en-GB">languages/admin/en-GB.com_easyblog.sys.ini</language>
+		</languages>
+	</administration>
+	<languages>
+		<language tag="en-GB">languages/site/en-GB.com_easyblog.ini</language>
+	</languages>
+	<updateservers>
+		<server type="extension" name="EasyBlog Update Site">https://stackideas.com/jupdates/manifest/easyblog</server>
+	</updateservers>
+</extension>

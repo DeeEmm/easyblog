@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="finder" method="upgrade">
+	<name>Smart Search - EasyBlog Posts</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>25 April 2017</creationDate>
+	<copyright>Copyright 2010 - 2017 StackIdeas. All rights reserved.</copyright>
+	<license>GPL License</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>https://stackideas.com</authorUrl>
+	<version>5.1.0</version>
+	<description>This plugin indexes EasyBlog blog entries in Smart Search.</description>
+	<files>
+		<file plugin="easyblog">easyblog.php</file>
+    	<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_finder_easyblog.ini</language>
+		<language tag="en-GB">en-GB.plg_finder_easyblog.sys.ini</language>
+	</languages>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

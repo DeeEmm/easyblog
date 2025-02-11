@@ -1,0 +1,9 @@
+{
+	"group": "misc",
+	"element": "rule",
+	"title": "Rule Block",
+	"description": "Allows you to insert a horizontal line block in the editor",
+	"keywords": "rule, horizontal rule, page break, divider",
+	"published": 1,
+    "ordering": 20
+}

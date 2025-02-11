@@ -1,0 +1,27 @@
+[
+    {
+        "table"     : "#__easyblog_tag",
+        "column"    : "default",
+        "query"     : "ALTER TABLE `#__easyblog_tag` ADD `default` TINYINT( 1 ) NOT NULL DEFAULT 0 AFTER `published`;"
+    },
+    {
+        "table"     : "#__easyblog_tag",
+        "index"    : "easyblog_tag_title",
+        "query"     : "ALTER TABLE `#__easyblog_tag` ADD INDEX `easyblog_tag_title` (`title`);"
+    },
+    {
+        "table"     : "#__easyblog_tag",
+        "index"    : "easyblog_tag_published",
+        "query"     : "ALTER TABLE `#__easyblog_tag` ADD INDEX `easyblog_tag_published` (`published`);"
+    },
+    {
+        "table"     : "#__easyblog_tag",
+        "index"    : "easyblog_tag_alias",
+        "query"     : "ALTER TABLE `#__easyblog_tag` ADD INDEX `easyblog_tag_alias` (`alias`);"
+    },
+    {
+        "table"     : "#__easyblog_tag",
+        "index"    : "easyblog_tag_query1",
+        "query"     : "ALTER TABLE `#__easyblog_tag` ADD INDEX `easyblog_tag_query1` (`published`, `id`, `title`);"
+    }
+]

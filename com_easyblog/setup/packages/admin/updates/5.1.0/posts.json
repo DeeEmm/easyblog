@@ -1,0 +1,22 @@
+[
+	{
+		"table" : "#__easyblog_post",
+		"column" : "params",
+		"query" : "ALTER TABLE `#__easyblog_post` ADD `params` TEXT NOT NULL;"
+	},
+	{
+		"table" : "#__easyblog_post",
+		"column" : "version",
+		"query" : "ALTER TABLE `#__easyblog_post` ADD `version` varchar(10) default '';"
+	},
+	{
+		"table" : "#__easyblog_post",
+		"column" : "media",
+		"query" : "ALTER TABLE `#__easyblog_post` ADD `media` LONGTEXT NULL AFTER `image`;"
+	},
+	{
+		"table" : "#__easyblog_post",
+		"column" : "author_alias",
+		"query" : "ALTER TABLE `#__easyblog_post` ADD `author_alias` VARCHAR(255) NULL;"
+	}
+]

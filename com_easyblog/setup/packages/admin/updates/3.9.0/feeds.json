@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__easyblog_feeds",
+        "column"    : "item_get_fulltext",
+        "query"     : "ALTER TABLE `#__easyblog_feeds` ADD `item_get_fulltext` tinyint(3) default 0 NOT NULL;"
+    }
+]

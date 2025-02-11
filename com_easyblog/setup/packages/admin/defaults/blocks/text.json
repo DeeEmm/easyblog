@@ -1,0 +1,9 @@
+{
+	"group": "layout",
+	"element": "text",
+	"title": "Text Block",
+	"description": "Text block is simply just a paragraph of text which the author can insert into their blog post.",
+	"keywords": "text, paragraph",
+	"published": 1,
+    "ordering": 2
+}

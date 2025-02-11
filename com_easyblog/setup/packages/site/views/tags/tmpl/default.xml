@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYBLOG_MENU_TAGS_LAYOUT">
+		<message><![CDATA[COM_EASYBLOG_MENU_TAGS_LAYOUT_DESC]]></message>
+		<view>tags</view>
+	</layout>
+
+	<fields name="params">
+		<fieldset name="request" addfieldpath="/administrator/components/com_easyblog/elements" id="general" label="COM_EB_MENU_GENERAL">
+			<field name="tag_search" config="tags_tag_search" type="dropdownglobal" default="1" label="COM_EASYBLOG_SHOW_SEARCH" description="COM_EASYBLOG_SHOW_SEARCH_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="tag_sorting" config="tags_tag_sorting" type="dropdownglobal" default="1" label="COM_EASYBLOG_SHOW_SORTING" description="COM_EASYBLOG_SHOW_SORTING_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="tag_rss" config="tags_tag_rss" type="dropdownglobal" default="1" label="COM_EASYBLOG_SHOW_RSS" description="COM_EASYBLOG_SHOW_RSS_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="tag_used_counter" config="tags_tag_used_counter" type="dropdownglobal" default="1" label="COM_EASYBLOG_SHOW_USED_COUNTER" description="COM_EASYBLOG_SHOW_USED_COUNTER_DESC">
+				<option value="0">JHIDE</option>
+				<option value="1">JSHOW</option>
+			</field>
+
+			<field name="tag_limit" config="tags_tag_limit" type="list" configtype="list" default="18" label="COM_EB_TAG_LIMIT" description="COM_EB_TAG_LIMIT_DESC">
+				<option value="18">18</option>
+				<option value="36">36</option>
+				<option value="72">72</option>
+				<option value="90">90</option>
+				<option value="all">COM_EB_TAG_LIMIT_SHOW_ALL_OPTION</option>				
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<altauserpoints>
+	<component>com_easyblog</component>
+	<rules>
+		<rule>
+			<name>Create New Blog Post</name>
+			<description>This rule add points if user add a new blog post in EasyBlog</description>
+			<plugin_function>plgaup_easyblog_add_blog</plugin_function>
+			<fixed_points>true</fixed_points>
+			<display_message>1</display_message>
+			<email_notification>1</email_notification>
+		</rule>
+		<rule>
+			<name>Delete Blog Post</name>
+			<description>This rule remove points if user delete a blog post in EasyBlog</description>
+			<plugin_function>plgaup_easyblog_delete_blog</plugin_function>
+			<fixed_points>true</fixed_points>
+			<display_message>1</display_message>
+			<email_notification>1</email_notification>
+		</rule>
+	</rules>
+</altauserpoints>

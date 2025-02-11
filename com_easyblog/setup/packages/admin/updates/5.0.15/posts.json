@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__easyblog_post_templates",
+        "column"    : "published",
+        "query"     : "ALTER TABLE `#__easyblog_post_templates` ADD `published` TINYINT(3) DEFAULT 1;"
+    }
+]

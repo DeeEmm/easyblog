@@ -1,0 +1,7 @@
+[
+	{
+		"table": "#__easyblog_post",
+		"alter": "ordering",
+		"query": "ALTER TABLE `#__easyblog_post` MODIFY COLUMN `ordering` INT(11) UNSIGNED NOT NULL DEFAULT 0;"
+	}
+]

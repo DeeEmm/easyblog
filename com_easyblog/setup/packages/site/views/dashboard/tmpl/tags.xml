@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_EASYBLOG_MENU_DASHBOARD_TAG_LAYOUT">
+		<message>
+			<![CDATA[COM_EASYBLOG_MENU_DASHBOARD_TAG_LAYOUT_DESC]]>
+		</message>
+		<view>dashboard</view>
+	</layout>
+</metadata>

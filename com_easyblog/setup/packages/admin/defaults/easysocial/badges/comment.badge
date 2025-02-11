@@ -1,0 +1,13 @@
+[
+	{
+	
+		"title" 		: "Commentator",
+		"description"	: "Loves posting comments on blog posts.",
+		"howto"			: "To unlock this badge, you need to comment on the blogs for more than 30 times.",
+		"alias"			: "commentator",
+		"extension"		: "com_easyblog",
+		"command"		: "comment.create",
+		"avatar"		: "media/com_easyblog/images/badges/commentator.png",
+		"frequency"		: 30
+	}
+]

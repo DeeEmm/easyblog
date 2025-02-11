@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>EasyBlog - Most Popular Post Module</name>
+	<author>Stack Ideas Sdn Bhd</author>
+	<creationDate>8th October 2024</creationDate>
+	<copyright>Copyright 2009 - 2015 Stack Ideas Sdn Bhd. All rights reserved.</copyright>
+	<license>GPL License v2</license>
+	<authorEmail>support@stackideas.com</authorEmail>
+	<authorUrl>http://stackideas.com</authorUrl>
+	<version>6.0.15</version>
+	<description><![CDATA[Most popular post module for your EasyBlog's component.]]></description>
+	<languages>
+		<language tag="en-GB">en-GB.mod_easyblogmostpopularpost.ini</language>
+	</languages>
+	<files>
+		<folder>tmpl</folder>
+		<filename module="mod_easyblogmostpopularpost">mod_easyblogmostpopularpost.php</filename>
+		<filename>mod_easyblogmostpopularpost.xml</filename>
+	</files>
+	<config>
+		<fields name="params" addfieldpath="/administrator/components/com_easyblog/elements">
+			<fieldset name="basic">
+				<field name="module_layout" type="list" class="btn-group" default="vertical" label="MOD_EASYBLOG_LAYOUT" description="MOD_EASYBLOG_LAYOUT_DESC">
+					<option value="vertical">MOD_EASYBLOG_LAYOUT_VERTICAL</option>
+					<option value="horizontal">MOD_EASYBLOG_LAYOUT_HORIZONTAL</option>
+				</field>
+				<field name="column" type="text" class="input-mini text-center" default="4" label="MOD_EASYBLOG_TOTAL_COLUMNS" description="MOD_EASYBLOG_TOTAL_COLUMNS_DESC" />
+				<field name="count" type="text" class="input-mini text-center" default="5" label="MOD_EASYBLOG_COUNT" description="MOD_EASYBLOG_COUNT_DESC" />
+				<field name="catid" type="multicategories" default="" label="MOD_EASYBLOG_SELECT_MULTIPLE_CATEGORIES" description="MOD_EASYBLOG_SELECT_MULTIPLE_CATEGORIES_DESC" />
+				<field name="postduration" type="text" default="0" class="input-mini text-center" label="MOD_EASYBLOG_POST_DURATION" description="MOD_EASYBLOG_POST_DURATION_DESC" />
+			</fieldset>
+
+			<fieldset name="post_attributes">
+				<field name="showintro" type="list" class="btn-group" default="0" label="MOD_EASYBLOG_CONTENT_SOURCE" description="MOD_EASYBLOG_CONTENT_SOURCE_DESC" >
+					<option value="-1">MOD_EASYBLOG_DO_NOT_SHOW_ANY_CONTENTS</option>
+					<option value="0">MOD_EASYBLOG_SHOW_INTROTEXT_ONLY</option>
+					<option value="1">MOD_EASYBLOG_SHOW_MAIN_CONTENT_ONLY</option>
+				</field>
+				<field name="textcount" type="text" class="input-mini text-center" default="200" label="MOD_EASYBLOG_TRUNCATE_POST_CONTENT" description="MOD_EASYBLOG_TRUNCATE_POST_CONTENT_DESC" />
+				<field name="showcommentcount" type="boolean" default="1" label="MOD_EASYBLOG_DISPLAY_COMMENT_COUNTER" description="MOD_EASYBLOG_DISPLAY_COMMENT_COUNTER_DESC" />
+				<field name="showratings" type="boolean" default="1" label="MOD_EASYBLOG_DISPLAY_RATINGS" description="MOD_EASYBLOG_DISPLAY_RATINGS_DESC" />
+				<field name="enableratings" type="boolean" default="1" label="MOD_EASYBLOG_ALLOW_RATINGS" description="MOD_EASYBLOG_ALLOW_RATINGS_DESC" />
+				<field name="showhits" type="boolean" default="1" label="MOD_EASYBLOG_DISPLAY_POST_HITS" description="MOD_EASYBLOG_DISPLAY_POST_HITS_DESC" />
+				<field name="showavatar" type="boolean" default="1" label="MOD_EASYBLOG_DISPLAY_AUTHOR_AVATAR" description="MOD_EASYBLOG_DISPLAY_AUTHOR_AVATAR_DESC" />
+
+				<field name="showreadmore" type="boolean" default="1" label="MOD_EASYBLOG_DISPLAY_READMORE" description="MOD_EASYBLOG_DISPLAY_READMORE_DESC" />
+				<field name="showauthor" type="boolean" default="1" label="MOD_EASYBLOG_DISPLAY_AUTHOR" description="MOD_EASYBLOG_DISPLAY_AUTHOR_DESC" />
+				<field name="showdate" type="boolean" default="1" label="MOD_EASYBLOG_DISPLAY_DATE" description="MOD_EASYBLOG_DISPLAY_DATE_DESC" />
+				<field name="showcategory" type="boolean" default="1" label="MOD_EASYBLOG_DISPLAY_CATEGORY" description="MOD_EASYBLOG_DISPLAY_CATEGORY_DESC" />
+			</fieldset>
+
+			<fieldset name="photos">
+				<field name="photo_show" type="boolean" default="1" label="MOD_EASYBLOG_DISPLAY_POST_COVER" description="MOD_EASYBLOG_DISPLAY_POST_COVER_DESC" />
+				<field name="photo_legacy" type="boolean" default="1" label="MOD_EASYBLOG_PICK_FIRST_IMAGE_AS_COVER" description="MOD_EASYBLOG_PICK_FIRST_IMAGE_AS_COVER_DESC" />
+				<field name="show_photo_placeholder" type="boolean" default="0" label="MOD_EASYBLOG_DISPLAY_PLACEHOLDER_IMAGE" description="MOD_EASYBLOG_DISPLAY_PLACEHOLDER_IMAGE_DESC" />
+				<field name="photo_size" type="list" default="thumbnail" label="MOD_EASYBLOG_COVER_VARIATION" description="MOD_EASYBLOG_COVER_VARIATION_DESC">
+					<option value="large">MOD_EASYBLOG_COVER_VARIATION_LARGE</option>
+					<option value="thumbnail">MOD_EB_COVER_VARIATION_THUMBNAIL</option>
+				</field>
+
+				<field name="photo_layout" type="cover" label="MOD_EASYBLOG_COVER_LAYOUT_STYLE" description="MOD_EASYBLOG_COVER_LAYOUT_STYLE_DESC" crop="1" full="1" defaultwidth="260" defaultheight="200" alignment="center" />
+			</fieldset>
+
+			<fieldset name="videos">
+				<field name="video_show" type="boolean" default="0" label="MOD_EASYBLOG_DISPLAY_VIDEO" description="MOD_EASYBLOG_DISPLAY_VIDEO_DESC" />
+				<field name="video_width" type="text" default="250" size="3" class="input-mini text-center" label="MOD_EASYBLOG_VIDEO_WIDTH" description="MOD_EASYBLOG_VIDEO_WIDTH_DESC" />
+				<field name="video_height" type="text" default="250" size="3" class="input-mini text-center" label="MOD_EASYBLOG_VIDEO_HEIGHT" description="MOD_EASYBLOG_VIDEO_HEIGHT_DESC" />
+			</fieldset>
+
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+
+				<field name="cache" type="list" default="0" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING
+					</option>
+				</field>
+
+				<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="StackIdeas Modules and Plugins">https://stackideas.com/joomla4compat.xml</server>
+	</updateservers>
+</extension>

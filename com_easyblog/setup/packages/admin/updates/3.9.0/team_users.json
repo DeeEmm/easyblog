@@ -1,0 +1,7 @@
+[
+    {
+        "table"     : "#__easyblog_team_users",
+        "column"    : "isadmin",
+        "query"     : "ALTER TABLE `#__easyblog_team_users` ADD `isadmin` tinyint(1) DEFAULT 0 NULL;"
+    }
+]

@@ -1,0 +1,9 @@
+{
+	"group": "media",
+	"element": "video",
+	"title": "Video Block",
+	"description": "Allows you to insert an external video source from video providers within a blog post.",
+	"keywords": "video, youtube, vimeo, embed",
+	"published": 1,
+    "ordering": 13
+}

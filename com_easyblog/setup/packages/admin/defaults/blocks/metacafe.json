@@ -1,0 +1,9 @@
+{
+	"group": "embeddables",
+	"element": "metacafe",
+	"title": "Metacafe",
+	"description": "Allows you to embed videos from Metacafe",
+	"keywords": "video, videos, metacafe, media",
+	"published": 1,
+    "ordering": 38
+}

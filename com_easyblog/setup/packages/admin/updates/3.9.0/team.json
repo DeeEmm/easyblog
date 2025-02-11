@@ -1,0 +1,12 @@
+[
+    {
+        "table"     : "#__easyblog_team",
+        "column"    : "access",
+        "query"     : "ALTER TABLE `#__easyblog_team` ADD COLUMN `access` TINYINT(1) DEFAULT 1 NULL;"
+    },
+    {
+        "table"     : "#__easyblog_team",
+        "column"    : "avatar",
+        "query"     : "ALTER TABLE `#__easyblog_team` ADD COLUMN `avatar` varchar(255) NULL;"
+    }
+]

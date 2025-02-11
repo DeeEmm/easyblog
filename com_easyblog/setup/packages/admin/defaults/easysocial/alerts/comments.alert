@@ -1,0 +1,82 @@
+[
+	{
+		"extension"	: "com_easyblog",
+		"element" : "blog",
+		"rule" : "comment",
+		"value" :
+		{
+			"email" : false,
+			"system" : true			
+		}
+	},
+	{
+		"extension" : "com_easyblog",
+		"element" : "blog",
+		"rule" : "comment.reply",
+		"value" :
+		{
+			"email" : false,
+			"system" : true			
+		}
+	},
+	{
+		"extension"	: "com_easyblog",
+		"element" : "blog",
+		"rule" : "group.comment",
+		"value" :
+		{
+			"email" : false,
+			"system" : true			
+		}
+	},
+	{
+		"extension" : "com_easyblog",
+		"element" : "blog",
+		"rule" : "group.comment.reply",
+		"value" :
+		{
+			"email" : false,
+			"system" : true			
+		}
+	},
+	{
+		"extension"	: "com_easyblog",
+		"element" : "blog",
+		"rule" : "event.comment",
+		"value" :
+		{
+			"email" : false,
+			"system" : true			
+		}
+	},
+	{
+		"extension" : "com_easyblog",
+		"element" : "blog",
+		"rule" : "event.comment.reply",
+		"value" :
+		{
+			"email" : false,
+			"system" : true			
+		}
+	},
+	{
+		"extension"	: "com_easyblog",
+		"element" : "blog",
+		"rule" : "page.comment",
+		"value" :
+		{
+			"email" : false,
+			"system" : true			
+		}
+	},
+	{
+		"extension" : "com_easyblog",
+		"element" : "blog",
+		"rule" : "page.comment.reply",
+		"value" :
+		{
+			"email" : false,
+			"system" : true			
+		}
+	}
+]

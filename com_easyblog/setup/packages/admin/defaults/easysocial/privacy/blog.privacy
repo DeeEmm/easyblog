@@ -1,0 +1,26 @@
+{
+	"type": "easyblog",
+	"rules":
+		[
+			{
+				"command" 		: "blog.view",
+				"description"	: "Who can view my EasyBlog blog post",
+				"default"		: "member",
+				"options"		:
+				[
+					{
+						"name"	: "public"
+					},
+					{
+						"name"	: "member"
+					},
+					{
+						"name"	: "friend"
+					},
+					{
+						"name"	: "only_me"
+					}
+				]
+			}
+		]
+}

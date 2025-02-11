@@ -1,0 +1,7 @@
+[
+    {
+        "table": "#__easyblog_post_rejected",
+        "column": "post_id",
+        "query": "ALTER TABLE `#__easyblog_post_rejected` CHANGE `draft_id` `post_id` INT(11) UNSIGNED NOT NULL;"
+    }
+]
