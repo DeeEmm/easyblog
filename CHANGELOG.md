@@ -24,6 +24,7 @@ https://github.com/DeeEmm/easyblog/CONTRIBUTING.md
 
 Build Number    | Description of Change
 -- | --
+2502120003      | Added contribution guidelines
 2502120002      | Create CHANGELOG + README
 2502120001      | V6.0.15 Release
 2502110001      | Initial Fork
