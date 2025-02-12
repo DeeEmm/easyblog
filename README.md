@@ -1,7 +1,7 @@
 
 Welcome to the EasyDiscuss community support repository.
 
-This repository is managed by the the Open Source community and aims to provide support, bugfixes and compatibility updates to allow EasyBlog users to maintain websites that use EasyBlog and realated StackIdeas products
+This repository is managed by the the Open Source community and aims to provide support, bugfixes and compatibility updates to allow EasyBlog users to maintain websites that use EasyBlog and related StackIdeas products
 
 This repository was created in response to the lack of proper support and updates provided by StackIdeas under thier subscription plans. The general consensus within the community is that subscription costs are not worth the money as they no longer release updates to their products. This leaves users that have made considerable investments into integrating StackIdeas products into their community websites with an uncertain future.
 
@@ -28,3 +28,16 @@ https://www.gnu.org/licenses/old-licenses/gpl-2.0-faq.html
 ## Usage
 
 To install the component download the zip file from the main page of the repository. Then upload the package file to your Joomla installation as normal. Then follow the onscreen prompts to install.
+
+## Contributing
+
+Contributing to the project is easy. You do not need to be a programmer or tech-savant. Discovering and raising issues, testing, helping out with forum support, documentation and WIKI contributions are all different and valuable ways that you can help the project. As a community we stand together and can provide help to each other. We can all draw on different skills. Sharing those skills within the community to help others is what this project is all about. Hopefully together we stand strong and can carry this project long into the future.
+
+## Other Products
+
+If you are a StackIdeas user then the following components may also be of interest. These products are also supported by the Open Source community.
+
+Please consider contributing to these projects too...
+
+https://github.com/DeeEmm/easysocial
+https://github.com/DeeEmm/easydiscuss
