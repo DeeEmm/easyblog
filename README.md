@@ -27,7 +27,7 @@ https://www.gnu.org/licenses/old-licenses/gpl-2.0-faq.html
 
 ## Usage
 
-To install the component download the zip file from the main page of the repository. Then upload the package file to your Joomla installation as normal. Then follow the onscreen prompts to install.
+To install the component download the zip file from the main page of the repository or the releases section. Upload the package file to your Joomla installation as normal. Then follow the onscreen prompts to install.
 
 ## Contributing
 
