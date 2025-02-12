@@ -1,5 +1,5 @@
 
-Welcome to the EasyDiscuss community support repository.
+Welcome to the EasyBlog community support repository.
 
 This repository is managed by the the Open Source community and aims to provide support, bugfixes and compatibility updates to allow EasyBlog users to maintain websites that use EasyBlog and related StackIdeas products
 
