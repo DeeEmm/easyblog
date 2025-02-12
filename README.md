@@ -33,11 +33,11 @@ To install the component download the zip file from the main page of the reposit
 
 Contributing to the project is easy. You do not need to be a programmer or tech-savant. Discovering and raising issues, testing, helping out with forum support, documentation and WIKI contributions are all different and valuable ways that you can help the project. As a community we stand together and can provide help to each other. We can all draw on different skills. Sharing those skills within the community to help others is what this project is all about. Hopefully together we stand strong and can carry this project long into the future.
 
-## Other Products
+## Other Projects
 
-If you are a StackIdeas user then the following components may also be of interest. These products are also supported by the Open Source community.
-
-Please consider contributing to these projects too...
+If you are a StackIdeas user then the following components may also be of interest. These projects are also supported by the Open Source community.
 
 https://github.com/DeeEmm/easysocial
 https://github.com/DeeEmm/easydiscuss
+
+(Please consider contributing to these projects too)
