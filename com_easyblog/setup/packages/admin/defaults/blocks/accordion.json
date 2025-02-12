@@ -1,9 +1,0 @@
-{
-	"group": "layout",
-	"element": "accordion",
-	"title": "Accordion Block",
-	"description": "Accordion block allows authors to display information in collapsible rows",
-	"keywords": "accordion",
-	"published": 1,
-	"ordering": 48
-}

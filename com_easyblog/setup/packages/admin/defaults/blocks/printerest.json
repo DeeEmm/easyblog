@@ -1,9 +1,0 @@
-{
-	"group": "embeddables",
-	"element": "pinterest",
-	"title": "Pinterest Block",
-	"description": "Allows you to embed a pinterest pin within the post.",
-	"keywords": "pinterest, pin, board",
-	"published": 1,
-    "ordering": 32
-}

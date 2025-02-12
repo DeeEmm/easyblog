@@ -1,9 +1,0 @@
-{
-	"group": "elements",
-	"element": "notes",
-	"title": "Notes Block",
-	"description": "Notes Block allows you to insert a note into the blog post.",
-	"keywords": "emphasis, note, info, message, highlight, important",
-	"published": 1,
-	"ordering": 56
-}

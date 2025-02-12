@@ -1,7 +1,0 @@
-[
-	{
-		"table": "#__easyblog_favourites",
-		"index": "idx_user_post",
-		"query": "ALTER TABLE `#__easyblog_favourites` ADD INDEX `idx_user_post` (`postId`, `userId`);"
-	}
-]

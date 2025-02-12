@@ -1,7 +1,0 @@
-[
-	{
-		"table": "#__easyblog_feeds_history",
-		"column" : "params",
-		"query" : "ALTER TABLE `#__easyblog_feeds_history` ADD `params` TEXT NOT NULL AFTER `created`;"
-	}
-]

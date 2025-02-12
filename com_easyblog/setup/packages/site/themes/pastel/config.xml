@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<install version="1.5" type="template">
-	<name>Pastel </name>
-	<version>3.5</version>
-	<created>17/01/2012</created>
-	<updated>17/01/2012</updated>
-	<author>StackIdeas Sdn Bhd</author>
-	<description>COM_EASYBLOG_THEME_PINKY_DESC</description>
-</install>

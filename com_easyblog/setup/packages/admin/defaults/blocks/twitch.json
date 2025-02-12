@@ -1,9 +1,0 @@
-{
-	"group": "embeddables",
-	"element": "twitch",
-	"title": "Twitch",
-	"description": "Twitch block allows authors to embed live stream, video on demand (VOD), clip or chat from Twitch. <br><br> <b>Note:</b> In order to use this, your site must on HTTPS.",
-	"keywords": "video, social, game, live, esport, music, chat, twitch",
-	"published": 1,
-	"ordering": 52
-}

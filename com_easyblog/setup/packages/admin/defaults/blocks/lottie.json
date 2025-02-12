@@ -1,9 +1,0 @@
-{
-	"group": "embeddables",
-	"element": "lottie",
-	"title": "Lottie",
-	"description": "Lottie block allows authors to embed an animation from Lottie",
-	"keywords": "animation, illustration, motion, design, lottie",
-	"published": 1,
-	"ordering": 54
-}

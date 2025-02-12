@@ -1,7 +1,0 @@
-[
-	{
-		"table": "#__easyblog_tag",
-		"column" : "description",
-		"query" : "ALTER TABLE `#__easyblog_tag` ADD COLUMN `description` TEXT NULL AFTER `alias`;"
-	}
-]

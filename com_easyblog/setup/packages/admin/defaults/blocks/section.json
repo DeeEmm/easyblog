@@ -1,9 +1,0 @@
-{
-	"group": "layout",
-	"element": "section",
-	"title": "Section Block",
-	"description": "Works as a section to allow you to group up blocks within a section",
-	"keywords": "columns, divider, section",
-	"published": 1,
-	"ordering": 45
-}

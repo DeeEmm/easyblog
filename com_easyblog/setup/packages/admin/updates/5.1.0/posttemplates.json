@@ -1,7 +1,0 @@
-[
-	{
-		"table" : "#__easyblog_post_templates",
-		"column" : "doctype",
-		"query" : "ALTER TABLE `#__easyblog_post_templates` ADD `doctype` VARCHAR(255) NOT NULL DEFAULT 'ebd';"
-	}
-]

@@ -1,9 +1,0 @@
-{
-	"group": "misc",
-	"element": "module",
-	"title": "Module Block",
-	"description": "Allows you to add a module in your blog post.",
-	"keywords": "module, position",
-	"published": 1,
-	"ordering": 43
-}

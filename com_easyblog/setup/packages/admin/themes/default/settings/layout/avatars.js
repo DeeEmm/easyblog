@@ -1,2 +1,0 @@
-EasyBlog.ready(function($){
-});

@@ -1,9 +1,0 @@
-{
-	"group": "elements",
-	"element": "alerts",
-	"title": "Alerts Block",
-	"description": "Allows you to insert an emphasis into the editor.",
-	"keywords": "emphasis, alert, info, panel, message, highlight, important",
-	"published": 1,
-	"ordering": 7
-}

@@ -1,7 +1,0 @@
-[
-	{
-		"table": "#__easyblog_composer_blocks",
-		"column" : "params",
-		"query" : "ALTER TABLE `#__easyblog_composer_blocks` ADD `params` TEXT NOT NULL AFTER `ordering`;"
-	}
-]

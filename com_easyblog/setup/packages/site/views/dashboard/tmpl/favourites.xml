@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<metadata>
-	<layout title="COM_EB_MENU_DASHBOARD_FAVOURITES_LAYOUT">
-		<message>
-			<![CDATA[COM_EB_MENU_DASHBOARD_FAVOURITES_LAYOUT_DESC]]>
-		</message>
-		<view>dashboard</view>
-	</layout>
-</metadata>

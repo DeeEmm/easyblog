@@ -1,7 +1,0 @@
-[
-	{
-		"table": "#__easyblog_post_templates",
-		"column": "params",
-		"query": "ALTER TABLE `#__easyblog_post_templates` ADD COLUMN `params` longtext default NULL AFTER `core`;"
-	}
-]

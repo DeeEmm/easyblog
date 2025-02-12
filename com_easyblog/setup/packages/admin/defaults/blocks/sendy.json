@@ -1,9 +1,0 @@
-{
-	"group": "embeddables",
-	"element": "sendy",
-	"title": "Sendy",
-	"description": "Allows author to embed newsletter subscription form that is linked to Sendy",
-	"keywords": "newsletter, sendy, subscription, subscribe, subscriber",
-	"published": 1,
-	"ordering": 47
-}
