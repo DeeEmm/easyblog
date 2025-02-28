@@ -7,7 +7,7 @@ This repository was created in response to the lack of proper support and update
 
 ## Project Goals
 
-The aim of the J!User project is to provide ongoing support for abandonware products like this one, and provide bug fix and compatibility updates. The goal is to allow users to continue being able to use the products that they have purchased. The J!User project is a community run and supported endeavour. Its sole aim is to help provide those of us who have websites that rely on abandonware products, to be able to continue to run our websites into the foreseeable future. This need in many cases is driven by the lack of alternative products to migrate to. THis is exepcially the case with niche products. 
+The aim of the J!User project is to provide ongoing support for abandonware products like this one, and provide bug fix and compatibility updates. The goal is to allow users to continue being able to use the products that they have purchased. The J!User project is a community run and supported endeavour. Its sole aim is to help provide those of us who have websites that rely on abandonware products to be able to continue to run our websites into the foreseeable future. This need in many cases is driven by the lack of alternative products to migrate to. This is especially the case with niche products. 
 
 The initial aim is to fix compatibility issues with the existing products and address outstanding bug reports. Long term it is hoped that the products may evolve with new features.
 
