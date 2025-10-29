@@ -15,10 +15,10 @@ require_once(__DIR__ . '/consumer.php');
 
 class EasyBlogClientFacebook extends EasyBlogFacebookConsumer
 {
-	public $callback 	= '';
-	public $token 		= '';
-	public $apiKey 		= '';
-	public $apiSecret 	= '';
+	public $callback = '';
+	public $token = '';
+	public $apiKey = '';
+	public $apiSecret = '';
 
 	public $jConfig = null;
 	public $config = null;

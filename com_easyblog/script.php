@@ -403,7 +403,7 @@ class com_EasyBlogInstallerScript
 		// Get a list of all known modules
 		$moduleNames = JFolder::folders(JPATH_ROOT . '/modules', 'mod_easyblog*');
 
-		// No modules found. #2789
+		// No modules found.
 		if (empty($moduleNames) || !$moduleNames) {
 			return true;
 		}

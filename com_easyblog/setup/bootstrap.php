@@ -80,11 +80,11 @@ define('SI_MANIFEST', 'https://stackideas.com/updater/manifests/' . SI_IDENTIFIE
 define('SI_SETUP_URL', JURI::base() . 'components/' . SI_IDENTIFIER . '/setup');
 define('SI_TMP', $path . '/tmp');
 define('SI_BETA', false);
-define('SI_KEY', '12345678901234567890123456789012');
+define('SI_KEY', '');
 define('SI_INSTALLER', 'full');
 
 // Only when SI_PACKAGE is running on full package, the SI_PACKAGE should contain the zip's filename
-define('SI_PACKAGE', 'com_easyblog_6.0.15_component_pro.zip');
+define('SI_PACKAGE', 'com_easyblog_6.0.16_component_pro.zip');
 
 // Get the current version
 $contents = file_get_contents(SI_ADMIN_MANIFEST);

@@ -19,6 +19,9 @@ class EasyBlogClientFlickr extends FlickrOauth
 	public $_access_token = '';
 	private $param = '';
 
+	public $app = null;
+	public $input = null;
+
 	public function __construct()
 	{
 		$this->app = JFactory::getApplication();

@@ -2,12 +2,12 @@
 <extension type="module" version="3.0" client="site" method="upgrade">
 	<name>EasyBlog - Showcase Module</name>
 	<author>Stack Ideas Sdn Bhd</author>
-	<creationDate>8th October 2024</creationDate>
+	<creationDate>28th July 2025</creationDate>
 	<copyright>Copyright 2009 - 2015 Stack Ideas Sdn Bhd. All rights reserved.</copyright>
 	<license>GPL License v2</license>
 	<authorEmail>support@stackideas.com</authorEmail>
 	<authorUrl>http://stackideas.com</authorUrl>
-	<version>6.0.15</version>
+	<version>6.0.16</version>
 	<description><![CDATA[This module allows you to choose several display mode for the posts on the site.]]></description>
 	<languages>
 		<language tag="en-GB">en-GB.mod_easyblogshowcase.ini</language>

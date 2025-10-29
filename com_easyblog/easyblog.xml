@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="component" version="3.0.0" method="upgrade">
 	<name>com_easyblog</name>
-	<creationDate>8th October 2024</creationDate>
+	<creationDate>28th July 2025</creationDate>
 	<author>Stack Ideas Sdn Bhd</author>
 	<authorEmail>support@stackideas.com</authorEmail>
 	<authorUrl>https://stackideas.com</authorUrl>
 	<copyright>Copyright Stack Ideas Sdn Bhd. All rights reserved.</copyright>
 	<license>GPL License v2</license>
-	<version>6.0.15</version>
+	<version>6.0.16</version>
 	<description>
 		EasyBlog is a Joomla! blog extension that simplifies your day to day blogging experience with Joomla. Coupled with a powerful multiple bloggers platform.
 	</description>

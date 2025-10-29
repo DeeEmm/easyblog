@@ -2,10 +2,10 @@
 <extension type="package" version="1.6" method="upgrade">
 	<name>Foundry Package</name>
 	<author>Stack Ideas Sdn Bhd</author>
-	<creationDate>7th October 2024</creationDate>
+	<creationDate>28th July 2025</creationDate>
 	<packagename>foundry</packagename>
 	<license>GPL License</license>
-	<version>1.1.19</version>
+	<version>1.1.20</version>
 	<url>https://stackideas.com/</url>
 	<packager>Stack Ideas Sdn Bhd</packager>
 	<packagerurl>https://stackideas.com/</packagerurl>

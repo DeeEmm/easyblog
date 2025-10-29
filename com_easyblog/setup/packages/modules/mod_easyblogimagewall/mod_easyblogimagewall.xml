@@ -2,12 +2,12 @@
 <extension type="module" version="3.0" client="site" method="upgrade">
 	<name>EasyBlog - Image Wall Module</name>
 	<author>Stack Ideas Sdn Bhd</author>
-	<creationDate>8th October 2024</creationDate>
+	<creationDate>28th July 2025</creationDate>
 	<copyright>Copyright 2009 - 2015 Stack Ideas Sdn Bhd. All rights reserved.</copyright>
 	<license>GPL License v2</license>
 	<authorEmail>support@stackideas.com</authorEmail>
 	<authorUrl>http://stackideas.com</authorUrl>
-	<version>6.0.15</version>
+	<version>6.0.16</version>
 	<description>
 		<![CDATA[Displays a list of blog posts represented as an image stream in a module.]]>
 	</description>
